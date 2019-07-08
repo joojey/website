@@ -404,7 +404,6 @@ background: #fff;
 .train {
     position: relative;
     width: 34%;
-    z-index: 0;
 }
 
 .train img {
@@ -412,6 +411,7 @@ background: #fff;
     position: absolute;
     margin-top: -16.5%;
     margin-left: -15%;
+    opacity: 0;
 }
 
 .train-move {
@@ -424,9 +424,9 @@ background: #fff;
 
 @keyframes mover {
     100% { transform: translateX(200%);
-    z-index: 8; }
+    opacity: 1; }
     0% { transform: translateY(-155%);
-    z-index: 8; }
+    opacity: 1; }
 }
 
 
