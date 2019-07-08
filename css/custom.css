@@ -176,7 +176,6 @@ p {
   color: #333!important;
 }
 
-
 .bg-white {
 position:absolute;
 background: #fff;
@@ -1088,6 +1087,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdbc9c', end
 
 #activities .points:after {
     height: 190px;
+}
+
+.butterfly {
+  position: relative;
+  left: 10%;
+  z-index: 12;
+  width: 100%;
+  animation: fly 8s linear infinite;
+}
+
+.butterfly img {
+  transform: rotate(20deg);
+  width: 50px;
+  position: relative;
+}
+
+@keyframes fly {
+  0%, 100% {
+    bottom: 0px;
+    left: 0px;
+  }
+  25% {
+    bottom: 5%;
+    right: -40%;
+    }
+  50% {
+    bottom: -1%;
+    left: 20%;
+  }
 }
 
 .text {
