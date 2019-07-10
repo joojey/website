@@ -55,6 +55,51 @@ p {
   padding-top: 1.8em;
 }
 
+ul {
+  list-style-type: none;
+  position: relative;
+}
+
+ul:before {
+    content: ' ';
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 1px;
+    height: 100%;
+    z-index: 400;
+    margin-top: 9px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.7em;
+  letter-spacing: .04em;
+  font-family: 'roboto';
+  color: #333;
+  margin: 60px 0;
+  padding-left: 40px;
+}
+
+li:before {
+    content: ' ';
+    height: 18px;
+    width: 18px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#383838+0,000000+100 */
+    background: rgb(56,56,56); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    z-index: 400;
+}
+
+
 .scrolltotop {
     width: 60px;
     height: 60px;
@@ -529,7 +574,7 @@ background: #fff;
 	position: relative;
 }
 
-#werdegang p, li{
+#werdegang p, #werdegang li{
 	line-height: 30px;
   vertical-align: middle;
   color: #f7f7f7;
@@ -879,7 +924,7 @@ padding-top: 0em;
     left: 50%;
     margin-left: -100px;
     z-index: 99;
-    margin-top: -10%;
+    margin-top: 0%;
   }
 
 .workplace {
