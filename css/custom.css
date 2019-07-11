@@ -187,8 +187,7 @@ li:before {
 }
 
 .avatar-hobby img {
-  top: 22%;
-  right: 3%;
+  top: 40%;
 }
 
 .navbar {
@@ -805,8 +804,6 @@ li:before {
       100% { background-position-y: 450px; }
     }
 
-
-
     .stars2{
       background:url(../img/stars/stars2.png);
       animation: stars2 40s infinite;
@@ -819,8 +816,6 @@ li:before {
       0% { background-position-y: 0px; }
       100% { background-position-y: 450px; }
     }
-
-
 
     .stars3{
       background:url(../img/stars/stars3.png);
@@ -835,8 +830,6 @@ li:before {
       100% { background-position-y: 450px; }
     }
 
-
-
     .stars4{
       background:url(../img/stars/stars4.png);
       animation: stars4 2.5s infinite;
@@ -849,7 +842,6 @@ li:before {
       0% { background-position-y: 0px; }
       100% { background-position-y: 450px; }
     }
-
 
     .stars5{
       background:url(../img/stars/stars5.png);
@@ -885,7 +877,6 @@ li:before {
       width: 100%;
       height: 350px;
       position: relative;
-
     }
 
     .work-triangle-bottom {
@@ -1182,7 +1173,7 @@ li:before {
       transform: rotate(20deg);
       width: 34px;
       position: relative;
-      margin-top: -160px;
+      margin-top: -40%;
       left: 20%;
     }
 
