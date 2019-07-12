@@ -4,6 +4,28 @@
   display: inline;
 }
 
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-family: 'roboto';
+  text-transform: uppercase;
+  background: #d3e5ff; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 45%, #166de5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e5ff', endColorstr='#166de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skewY(-3deg);
+  margin-top: -10px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.5rem;
+  }
+}
+
 h2 {
   position: relative;
   font-size: 2.4rem;
@@ -290,6 +312,10 @@ li:before {
     margin-top: 220px!important;
   }
 
+    .bg-white-impressum {
+      margin-top: 60px!important;
+    }
+
   .city-section {
     width: 200%;
     left: -200px;
@@ -330,6 +356,10 @@ li:before {
     top: -90%;
   }
 
+  .bg-white-impressum {
+    margin-top: 100px!important;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -357,7 +387,6 @@ li:before {
     top: -25%;
   }
 
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -369,6 +398,10 @@ li:before {
   .city-section{
     width: 65%;
     top: -18%;
+  }
+
+  .bg-white-impressum {
+    margin-top: 20px!important;
   }
 
 }
@@ -518,16 +551,6 @@ li:before {
 
     .cloud1 img {
       width: 100%;
-    }
-
-    @media (min-width: 720px) {
-      h1 {
-        font-weight: bold;
-        text-align: center;
-        font-size: 6.5rem;
-        font-family: 'roboto';
-        transform: skewY(-3deg);
-      }
     }
 
     .container{
@@ -883,22 +906,6 @@ li:before {
       transform-origin: right;
     }
 
-
-    #workexperience .title {
-      font-weight: 900;
-      font-family: 'roboto';
-      text-transform: uppercase;
-      background: #d3e5ff; /* Old browsers */
-      background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 45%, #166de5 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e5ff', endColorstr='#166de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      transform: skewY(-3deg);
-      margin-top: -10px;
-    }
-
     #workexperience h2 {
       margin-bottom: 0em;
       padding-top: 0em;
@@ -1226,21 +1233,6 @@ li:before {
       margin-top: -10px;
     }
 
-    #documents h1 {
-      font-weight: 900;
-      font-family: 'roboto';
-      text-transform: uppercase;
-      background: #d3e5ff; /* Old browsers */
-      background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 45%, #166de5 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e5ff', endColorstr='#166de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      transform: skewY(-3deg);
-      margin-top: -10px;
-    }
-
     .button a {
       width: 100%;
       border: 1px solid #fff;
@@ -1533,7 +1525,7 @@ li:before {
       }
 
       #header-impressum {
-        height: 440px;
+        height: 540px;
         background: #a6acf8;
         background: -moz-linear-gradient(left, #a6acf8 0%, #4e98e8 25%, #586eec 61%, #996de5 100%);
         background: -webkit-linear-gradient(left, #a6acf8 0%,#4e98e8 25%,#586eec 61%,#996de5 100%);
@@ -1544,24 +1536,47 @@ li:before {
         display: block;
       }
 
+      #header-impressum h1, #header-impressum h3 {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7faff+1,eaf1fe+50,e3c3e5+100 */
+        background: #f7faff; /* Old browsers */
+        background: -moz-linear-gradient(45deg, #f7faff 1%, #eaf1fe 50%, #e3c3e5 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, #f7faff 1%,#eaf1fe 50%,#e3c3e5 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg, #f7faff 1%,#eaf1fe 50%,#e3c3e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7faff', endColorstr='#e3c3e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
       .bg-white-impressum {
         position:absolute;
         background: #fff;
         transform-origin: left;
         animation: movve 1.2s;
         width: 100%;
-        height: 300vh;
-        top: 0px;
+        height: 100vh;
+        top: 162px;
+        transform: matrix(1, 0.10, 0, 1, 0, 0);
         z-index: 5;
         display: block;
         left: 0;
       }
 
       .section-impressum {
-        display: block;
         position: relative;
         height: 100%;
         margin-bottom: 100px;
-        margin-top: -300px;
+        margin-top: -100px;
         z-index: 9;
+      }
+
+      .section-impressum h3 {
+        padding: 20px 0 10px 0;
+      }
+
+      .section-impressum p {
+        padding: 0 0 40px 0;
+      }
+
+      .section-impressum li {
+        margin: 30px 0;
       }
