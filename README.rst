@@ -21,16 +21,9 @@ Authors
 
 License
 =======
-
-<<<<<<< HEAD
 MIT License
 
 Copyright (c) 2019 Johannes Wolters
-=======
-The MIT License (MIT)
-
-Copyright (c) 2016-2018 Marcel R.
->>>>>>> parent of 3641edd... Delete README.rst
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
