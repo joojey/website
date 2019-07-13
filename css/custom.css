@@ -1545,6 +1545,7 @@ li:before {
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7faff', endColorstr='#e3c3e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        padding: 84px 0 0 0;
       }
 
       .bg-white-impressum {
@@ -1554,7 +1555,7 @@ li:before {
         animation: movve 1.2s;
         width: 100%;
         height: 100vh;
-        top: 162px;
+        top: 142px;
         transform: matrix(1, 0.10, 0, 1, 0, 0);
         z-index: 5;
         display: block;
