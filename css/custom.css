@@ -590,6 +590,7 @@ a {
 
 #werdegang{
   position: relative;
+  z-index: 4;
 }
 
 #werdegang p {
@@ -597,7 +598,6 @@ a {
   vertical-align: middle;
   color: #f7f7f7;
   text-shadow: 1px 1px 1px #212529;
-
 }
 
 #werdegang li {
@@ -879,10 +879,9 @@ a {
 }
 
 #workexperience{
-  overflow: hidden;
   position: relative;
   height: 100%;
-  z-index: 99;
+  background: #efefef;
 }
 
 #workexperience li {
@@ -896,7 +895,7 @@ a {
   background: -webkit-linear-gradient(45deg, #2a87d8 0%,#62a9e4 100%);
   background: linear-gradient(45deg, #2a87d8 0%,#62a9e4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a87d8', endColorstr='#62a9e4',GradientType=1 );
-  border: 2px solid #fff;
+  border: 2px solid #efefef;
 }
 
 #workexperience ul:before {
@@ -944,7 +943,6 @@ a {
 }
 
 #workexperience li p{
-  z-index: 4;
   padding: 0;
 }
 
@@ -954,6 +952,7 @@ a {
   left: 50%;
   margin-left: -100px;
   margin-top: 20px;
+  z-index: 2;
 }
 
 .workplace {
@@ -1050,7 +1049,8 @@ a {
 }
 
 .skills-script{
-  font-size: 14px;
+  font-size: 1rem;
+  letter-spacing: .04em;
   padding: 10px 0px 0px 0px;
   margin: 0;
   font-weight: 900;
@@ -1064,7 +1064,8 @@ a {
 }
 
 .skills-program {
-  font-size: 14px;
+  font-size: 1rem;
+  letter-spacing: .04em;
   padding: 10px 0px 0px 0px;
   margin: 0;
   font-weight: 900;
@@ -1093,11 +1094,7 @@ a {
   line-height: 1.0em;
   letter-spacing: .02em;
   text-transform: uppercase;
-  background: #fddfdd;
-  background: -moz-linear-gradient(45deg, #fddfdd 0%, #fff6e1 32%, #fdf4e9 65%);
-  background: -webkit-linear-gradient(45deg, #fddfdd 0%,#fff6e1 32%,#fdf4e9 65%);
-  background: linear-gradient(45deg, #fddfdd 0%,#fff6e1 32%,#fdf4e9 65%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fddfdd', endColorstr='#fdf4e9',GradientType=1 );
+  background: #fff6e1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1105,6 +1102,7 @@ a {
 #skill-diagramm p {
   color: #fdf4e9;
   padding-bottom: 30px;
+  text-shadow: 0px 2px 3px #AA0044;
 }
 
 #skills img {
@@ -1134,7 +1132,7 @@ a {
   width: 100%;
   height: 100%;
   padding-top: 100px;
-  background: #f3f8fb;
+  background: #efefef;
 }
 
 #activities p {
