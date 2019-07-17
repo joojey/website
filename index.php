@@ -514,7 +514,7 @@
 								<p>
 									<input id="contactCheckbox" type="checkbox" name="dpp" value="value1">
 									Ich habe die
-									<a href="../datenschutz.html">Datenschutzerklärung</a>
+									<a href="datenschutz">Datenschutzerklärung</a>
 									gelesen und akzeptiere diese.
 								</p>
 							</div>
