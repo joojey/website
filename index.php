@@ -266,7 +266,7 @@
 							<div class="col-md-6">
 								<div class="workplace">
 									<div class="workplace-text">
-										<div class=""><h3>Sportwelt Scherer</h3></div>
+										<h3>Sportwelt Scherer</h3>
 										<h2>2,5 Jahre +</h2>
 										<p>IT-Abteilung</p>
 									</div>
@@ -522,11 +522,6 @@
 					</form>
 				</div>
 			</section>
-
-			<!-- TRIANGLE -->
-			<div class="triangle-section">
-				<div class="triangle-footer"></div>
-			</div>
 
 			<!-- FOOTER -->
 			<?php include("footer.html");?>

@@ -85,10 +85,7 @@
 
 
 						<!-- FOOTER -->
-						<div class="triangle-section">
-							<div class="triangle-footer"></div>
-						</div>
-							<?php include("footer.html");?>
+						<?php include("footer.html");?>
 
 						<script src="js/custom.js"></script>
 						</body>

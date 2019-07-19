@@ -78,7 +78,6 @@ h4 {
 ul {
   list-style-type: none;
   position: relative;
-  overflow: hidden;
 }
 
 ul:before {
@@ -886,6 +885,30 @@ a {
   overflow: hidden;
 }
 
+#workexperience h1 {
+  font-weight: 900;
+  font-family: 'roboto';
+  text-transform: uppercase;
+  background: #d3e5ff;
+  background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 45%, #166de5 100%);
+  background: -webkit-linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%);
+  background: linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e5ff', endColorstr='#166de5',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skewY(-3deg);
+  margin-top: -10px;
+}
+
+#workexperience h2 {
+  margin-bottom: 0em;
+  padding-top: 0em;
+}
+
+#workexperience h3 {
+    margin-top: 100px;
+  }
+
 #workexperience li {
   margin: 15px;
   padding-left: 0px;
@@ -904,6 +927,16 @@ a {
   background: #E0E0E0;
   width: 3px;
   left: 8px;
+}
+
+@media (max-width: 770px) {
+  #workexperience ul li p {
+    padding-left: 20px;
+  }
+
+  #workexperience li:before, #workexperience ul:before {
+    display: block;
+  }
 }
 
 #workexperience p {
@@ -933,17 +966,6 @@ a {
   transform-origin: right;
 }
 
-#workexperience h2 {
-  margin-bottom: 0em;
-  padding-top: 0em;
-}
-
-.workplace-text h3{
-  padding-bottom: .0em;
-  margin-bottom: 0.7em;
-  padding-top: 0em;
-}
-
 #workexperience li p{
   padding: 0;
 }
@@ -958,14 +980,15 @@ a {
 }
 
 .workplace {
-  background-image: url("../img/chart.png");
+  background-image: url("../img/circle.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   height: 300px;
   width: 100%;
   position: relative;
   margin: 45px 0 45px 0;
-        text-align: center;
+  text-align: center;
 }
 
 .fuck {
@@ -979,10 +1002,16 @@ a {
 
 .workplace-text {
   position: absolute;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.workplace-text h3 , p {
+  padding: 30px 0 10px 0;
+  margin: 0!important;
 }
 
 .transition-up {
@@ -1260,25 +1289,6 @@ a {
   padding: 0;
 }
 
-#workexperience h3 {
-  margin-top: 100px;
-}
-
-#workexperience h1 {
-  font-weight: 900;
-  font-family: 'roboto';
-  text-transform: uppercase;
-  background: #d3e5ff;
-  background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 45%, #166de5 100%);
-  background: -webkit-linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%);
-  background: linear-gradient(45deg, #d3e5ff 1%,#8aaffa 15%,#6fbbfd 45%,#166de5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3e5ff', endColorstr='#166de5',GradientType=1 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: skewY(-3deg);
-  margin-top: -10px;
-}
-
 #contact h1 {
   font-weight: 900;
   font-family: 'roboto';
@@ -1496,7 +1506,7 @@ footer a:hover {
   border-radius: 50%;
   position: relative;
   left: 50%;
-  margin-left: -22px;
+  margin-left: -24px;
   margin-bottom: 14px;
   z-index: 2;
 }
