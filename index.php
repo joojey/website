@@ -45,13 +45,17 @@
 
 			<div class="traffic-light"><img src="img/header/traffic_light_red.png"></img></div>
 
+			<div class="illuminated-sign-position">
+				<div class="illuminated-sign"><img src="img/header/illuminated-sign.gif"></img></div>
+			</div>
+
 			<!-- CITY LAYER 1 -->
 			<div class="city-layer-top">
 				<img src="img/header/city_layertop.png"></img>
 			</div>
 
-			<div class="cloud transition-up"><img src="img/header/cloud2.png"></img></div>
-			<div class="cloud1 transition-up"><img src="img/header/cloud2.png"></img></div>
+			<div class="cloud transition-up"><img src="img/header/cloud.svg"></img></div>
+			<div class="cloud1 transition-up"><img src="img/header/cloud.svg"></img></div>
 
 			<div class="train-position">
 				<div class="train"><img src="img/header/train.png" class="train-move"></img></div>

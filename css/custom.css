@@ -418,6 +418,24 @@ a {
   width: 8%;
 }
 
+.illuminated-sign-position {
+  position: absolute;
+  width: 100%;
+  margin-top: 40%;
+  left: 48.2%;
+}
+
+.illuminated-sign {
+  position: absolute;
+  z-index: 16;
+  width: 10%;
+}
+
+.illuminated-sign img {
+  position: absolute;
+  width: 15%;
+}
+
 .carbon-neutral-position {
   position: absolute;
   width: 100%;
@@ -512,20 +530,20 @@ a {
 .car-position {
   position: absolute;
   width: 100%;
-  top: 40%;
-  left: 10%;
+  top: 38%;
+  left: 8%;
 }
 
 .car {
   position: relative;
-  width: 17%;
+  width: 19%;
   z-index: 8;
 }
 
 .car-move {
   width: 50%;
   transition: all 6.0s ease-out;
-  transform: translate(543%, 460%);
+  transform: translate(505%, 440%);
 }
 
 .cloud {
@@ -602,10 +620,6 @@ a {
 
 #werdegang li {
   margin: 0;
-}
-
-#werdegang ul:before {
-
 }
 
 #werdegang a{
