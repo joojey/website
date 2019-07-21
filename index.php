@@ -100,15 +100,20 @@
 
 					<div class="aboutme">
 						<div class=" text-center"><h3>Über mich</h3></div>
-						<h2 class="text-center">Hallo, ich bin Johannes</h2>
+						<h2 class="text-center">Hallo, ich bin Johannes.</h2>
 						<h2 class="text-center">Lerne mich näher kennen.</h2>
 						<p>
 							Es freut mich, dass du den Weg auf meine Website gefunden hast! Mein Name ist Johannes Wolters. Ich bin 25 Jahre alt und wohne aktuell in einem beschaulichen Ort Namens Bocket an der niederländischen Grenze.<br><br>
 							Durch mein frühes Interesse an Informationstechniken und meinem schulischen und beruflichen wirtschaftlichen Werdegang, begeistern mich insbesondere IT-Themen mit wirtschaftlichen Zusammenhängen.
 							Dabei witme ich mich auch in meiner Freizeit gerne verschiedener IT-Projekte. So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
+						</p>
+							<div class="row">
+								<img src="img/signature.png" class="signature">
+							</div>
+							<hr>
+							<p style="padding:0;">
 							Diese Website findest du auch auf meinem <a target="_blank" href="https://github.com/joojey">GitHub-Profil</a>.
 						</p>
-						<img src="img/signature.png" class="signature">
 					</div>
 				</div>
 			</div>
@@ -167,7 +172,7 @@
 							<div class="points points-long"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Seit dem Q4 2016 arbeite ich als kaufmännischer Mitarbeiter in der IT-Abteilung von Sportwelt Scherer in Übach-Palenberg. Neben meinen Tätigkeiten konnte ich bereits weitere Aufgaben in meinem Team umsetzen:<br><br>
+							<p>Seit dem Q4 2016 bin ich in der IT-Abteilung von Sportwelt Scherer als kaufmännischer Mitarbeiter tätig. Neben meinen Tätigkeiten konnte ich bereits weitere Aufgaben in meinem Team umsetzen:<br><br>
 								- Erstellung eines Datenschutzkonzeptes und des Verzeichnisses von Verarbeitungstätigkeiten zur Umsetzung der neuen Datenschutz-Grundverordnung.<br>
 								- Optimierung der Versandabwicklung über die Schnittstelle Intraship.<br>
 								- Optimierung des Designs und der Usability des Online-Shops.<br>
@@ -185,7 +190,7 @@
 								<div class="points"></div>
 							</div>
 							<div class="col-md-8">
-								<p>Entwicklung einer Tauschbörse, bei der Kunden Ihre Artikel hochladen können und diese direkt oder zeitversetzt mit Hilfe einer Tauschwährung tauschen. Für die Entwicklung im Team wurde Gitkraken eingesetzt.</p>
+								<p>Entwicklung einer Tauschbörse, bei der User Artikel hochladen können und diese direkt oder zeitversetzt mit Hilfe einer Tauschwährung tauschen. Für die Entwicklung im Team wurde Gitkraken eingesetzt.</p>
 							</div>
 						</div>
 
@@ -197,7 +202,7 @@
 								<div class="points"></div>
 							</div>
 							<div class="col-md-8">
-								<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung der Onlinepräszenz.</p>
+								<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, mit der Führung der monatlichen Umsatzstatistik beauftragt und für die Onlinepräszenz verantwortlich.</p>
 							</div>
 						</div>
 
@@ -262,7 +267,7 @@
 					<div class="col-12">
 						<h3>Berufserfahrung</h3>
 						<h1>Berufe</h1>
-						<h2>Verteilung meiner Aufgaben</h2>
+						<h2>Verteilung meiner Aufgaben.</h2>
 					</div>
 				</div>
 
@@ -277,9 +282,9 @@
 								</div>
 								<p>Meine Aufgaben umfassen informationstechnische und kaufmännische Tätigkeiten im ausgewogenem Maße:</p>
 								<ul>
-									<li><p>Verwaltung des ERP-Systems (plentymarkets)</p></li>
+									<li><p>Verwaltung des ERP-Systems</p></li>
 									<li><p>Datenstrukturierung / Daten Im- und Exporte</p></li>
-									<li><p>Verwaltung des Online-Shops und der Märktplätze</p></li>
+									<li><p>Optimierung des Online-Shops und der Märktplätze</p></li>
 									<li><p>Leasing- und Finanzierungsabwicklung</p></li>
 									<li><p>Kundensupport und Verkaufstätigkeiten</p></li>
 									<li><p>Abmahn- und Datenschutz</p></li>
@@ -296,15 +301,15 @@
 										<p>Ausbildung</p>
 									</div>
 								</div>
-								<p>Bis auf die Verwaltung der Onlinepräsenz ausschließlich kaufmännische Tätigkeiten:</p>
+								<p>In meiner Ausbildung zum größten Teil kaufmännische Tätigkeiten:</p>
 								<ul>
-									<li><p>Erstellung und Kontrolle von Rechnungen</p></li>
-									<li><p>Dokumentenverwaltung und -ablage</p></li>
-									<li><p>Korrespondenz mit Kunden und Lieferanten</p></li>
 									<li><p>Garantie- und Reklamationsabwicklung</p></li>
 									<li><p>Führung der Umsatzstatistik</p></li>
-									<li><p>Softwareupdates an Rasenrobotern</p></li>
 									<li><p>Einkauf und Beschaffung</p></li>
+									<li><p>Korrespondenz mit Kunden und Lieferanten</p></li>
+									<li><p>Erstellung und Kontrolle von Rechnungen</p></li>
+									<li><p>Dokumentenverwaltung und -ablage</p></li>
+									<li><p>Softwareupdates an Rasenrobotern</p></li>
 									<li><p>Weitere im <a class="" href="../documents/reference.pdf#zoom=150">Ausbidungszeugnis</a></p></li>
 							</ul>
 							</div>
@@ -340,12 +345,12 @@
 									<li>
 										<h4>Auszeichnungs- & Stylesheetsprachen</h4>
 										<h3 class="skills-script">HTML&nbsp;&nbsp;&#124;&nbsp;&nbsp;CSS&nbsp;&nbsp;&#124;&nbsp;&nbsp;Bootstrap</h3>
-										<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websiten veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von Erstellung und Führen von Websiten. Mit immer anderen kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websiten mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' erweitern. In meiner darauffolgenden Berufsausbildung übernahm ich Verwaltung und Optimierung der Website meines Ausbildungsbetriebes. Mit der Erstellung der Tauschbörse, vertieften sich meine Kenntnisse in HTML und CSS noch einmal und setze hierzu das Grid-System Bootstrap ein.</p>
+										<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websiten veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von Erstellung und Führen von Websiten. Mit immer neuen kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websiten mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' erweitern. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes. Mit der Erstellung einer Tauschbörse, vertieften sich meine Kenntnisse in HTML und CSS noch einmal, dabei setze ich das Grid-System Bootstrap ein.</p>
 									</li>
 									<li>
 										<h4>Scriptsprachen</h4>
-										<h3 class="skills-script">Javascript&nbsp;&nbsp;&#124;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&#124;&nbsp;&nbsp;Ruby on Rails</h3>
-										<p>Die Erlernung von Javascript konnte ich in der Zeit der Erstellung der Tauschbörse erlangen. Zusätzlich kam dabei Ruby on Rails zum Einsatz. jQuery wurde eingesetzt.</p>
+										<h3 class="skills-script">JavaScript&nbsp;&nbsp;&#124;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&#124;&nbsp;&nbsp;Ruby on Rails</h3>
+										<p>Die Erlernung von JavaScript konnte ich in der Zeit der Erstellung der Tauschbörse erlangen. Zusätzlich kam dabei Ruby on Rails zum Einsatz. Dabei setze ich unter anderem die jQuery Bibliothek ein.</p>
 									</li>
 									<li>
 										<h4>Programmiersprachen</h4>
@@ -369,14 +374,14 @@
 							<li>
 								<h4>ERP-System</h4>
 								<h3 class="skills-program">Plentymarkets</h3>
-								<p>Bei meiner aktuellen Arbeitsstelle verwenden wir bereichsübergreifend plentymarkets. Als Mitarbeiter des IT-Teams, bin ich für die Verwaltung des Systemes zuständig. Beispielsweise erstelle ich Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
-									und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, konnte ich meine Kenntnisse stetig erweitern.
+								<p>Bei meiner aktuellen Arbeitsstelle wird bereichsübergreifend plentymarkets eingesetzt. Als Mitarbeiter des IT-Teams erstelle ich beispielsweise Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
+									und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, erweitere ich stetig meine Kenntnisse in diesem Bereich.
 								</p>
 							</li>
 							<li>
 								<h4>Textverarbeitungs- & Tabellenkalkulations<div class="break-mobile">-<br></div>programme</h4>
 								<h3 class="skills-program">Microsoft Word & Excel&nbsp;&nbsp;&#124;&nbsp;&nbsp;OpenOffice Writer & Calc</h3>
-								<p>Vertieft wurden meine Microsoft Word und Excel Kenntnisse in den Fächern der höheren Handelsschule und vorführend an der Berufsschule meiner Ausbildung. Für den Import und Export von CSV-Daten verwende ich stellenweise OpenOffice Calc.</p>
+								<p>Vertieft habe ich meine Microsoft Word und Excel Kenntnisse in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Für den Import und Export von CSV-Daten verwende ich stellenweise OpenOffice Calc.</p>
 							</li>
 							<li>
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
@@ -386,7 +391,7 @@
 							<li>
 								<h4>Weitere</h4>
 								<h3 class="skills-program">Microsoft PowerPoint&nbsp;&nbsp;&#124;&nbsp;&nbsp;Microsoft Access&nbsp;&nbsp;&#124;&nbsp;&nbsp;10-Finger-Schreibsystem</h3>
-								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete regelmäßig mit PowerPoint. In dieser Zeit erlernte ich das 10-Finger-Schreibsystem.</p>
+								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete im Unterricht regelmäßig mit PowerPoint. In dieser Zeit erlernte ich das 10-Finger-Schreibsystem.</p>
 							</li>
 						</ul>
 						<img src="img/skills.png" class=""></img>

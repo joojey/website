@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Hind:500&display=swap');
+
 
 .col-lg-6, .col-sm-4, .col-sm-3, .col-lg-4, .col-md-2, .col-md-10, .col-md-3, .col-md-9, .col-md-8, .col-md-6, .col-md-12 {
   display: inline;
@@ -494,9 +494,9 @@ a {
 
 .train-position {
   position: absolute;
-  width: 65%;
-  top: 62%;
-  left: 30%;
+  width: 75%;
+  top: 60%;
+  left: 27%;
 }
 
 .train {
@@ -507,23 +507,23 @@ a {
 .train img {
   width: 100%;
   position: absolute;
-  margin-top: -16.5%;
+  margin-top: -15%;
   margin-left: -15%;
   opacity: 0;
 }
 
 .train-move {
-  -webkit-animation: movetrain 5s  alternate;
-  animation: movetrain 5s  alternate;
+  -webkit-animation: movetrain 5.5s  alternate;
+  animation: movetrain 5.5s  alternate;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.9s;
 }
 
 @keyframes movetrain {
-100% { transform: translateX(200%);
+100% { transform: translateX(180%);
   opacity: 1; }
-  0% { transform: translateY(-155%);
+  0% { transform: translateY(-140%);
     opacity: 1; }
   }
 
@@ -592,17 +592,21 @@ a {
   padding-top: 40px;
 }
 
+.aboutme hr {
+  border-top: 1px solid rgba(0,0,0,1);
+  width: 90px;
+}
+
 .signature {
-  float: right;
-  width: 100px;
-  margin-right: -15px;
+  margin-left: auto;
+  margin-right: 15px;
+  position: relative;
 }
 
 @media (max-width: 719px) {
   .signature {
     left: 50%;
-    width: 100px;
-    float: none;
+    margin-left: -43px;
   }
 }
 
@@ -1545,12 +1549,15 @@ footer hr {
   margin-top: 30px;
 }
 
+.copyright {
+  margin-bottom: 50px;
+}
+
 .copyright p {
   font-size: 14px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   opacity: 0.6;
-  margin-bottom: 60px;
 }
 
 #header-impressum {
@@ -1608,4 +1615,8 @@ footer hr {
 
 .section-impressum li {
   margin: 30px 0;
+}
+
+.section-impressum li p {
+  padding: 0;
 }

@@ -50,12 +50,12 @@
 					<h2>Ihre Betroffenenrechte</h2>
 					<p>Unter den angegebenen Kontaktdaten können Sie jederzeit folgende Rechte ausüben:</p>
 					<ul>
-						<li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</li>
-						<li>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</li>
-						<li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
-						<li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),</li>
-						<li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</li>
-						<li>Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).</li>
+						<li><p>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</p></li>
+						<li><p>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</p></li>
+						<li><p>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</p></li>
+						<li><p>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),</p></li>
+						<li><p>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</p></li>
+						<li><p>Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).</p></li>
 					</ul>
 					<br><br>
 					<p>Sofern Sie mir eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.<br><br>
