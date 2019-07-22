@@ -214,7 +214,7 @@
 								<div class="points"></div>
 							</div>
 							<div class="col-md-8">
-								<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung in Geilenkirchen. Mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert.</p>
+								<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung. Mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert.</p>
 							</div>
 						</div>
 
@@ -345,12 +345,12 @@
 									<li>
 										<h4>Auszeichnungs- & Stylesheetsprachen</h4>
 										<h3 class="skills-script">HTML&nbsp;&nbsp;&#124;&nbsp;&nbsp;CSS&nbsp;&nbsp;&#124;&nbsp;&nbsp;Bootstrap</h3>
-										<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websiten veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von Erstellung und Führen von Websiten. Mit immer neuen kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websiten mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' erweitern. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes. Mit der Erstellung einer Tauschbörse, vertieften sich meine Kenntnisse in HTML und CSS noch einmal, dabei setze ich das Grid-System Bootstrap ein.</p>
+										<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websiten veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von Konzeption, Erstellung und Führung von Websiten. Mit immer neuen kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich begann mir HTML Kenntnisse anzueigenen. Später erstellte ich erste komplett eigene Websiten mit HTML und CSS. Meine Kenntnisse habe ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' erweitert. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes. Mit der Erstellung der Tauschbörse, vertieften sich meine Kenntnisse in HTML und CSS noch einmal, dabei setzte ich als Grid-System Bootstrap ein.</p>
 									</li>
 									<li>
 										<h4>Scriptsprachen</h4>
 										<h3 class="skills-script">JavaScript&nbsp;&nbsp;&#124;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&#124;&nbsp;&nbsp;Ruby on Rails</h3>
-										<p>Die Erlernung von JavaScript konnte ich in der Zeit der Erstellung der Tauschbörse erlangen. Zusätzlich kam dabei Ruby on Rails zum Einsatz. Dabei setze ich unter anderem die jQuery Bibliothek ein.</p>
+										<p>JavaScript habe ich mit der Erstellung der Tauschbörse gerlernt und eingesetzt. Zusätzlich kam dabei Ruby on Rails zum Einsatz. Dabei setze ich unter anderem die jQuery Bibliothek ein.</p>
 									</li>
 									<li>
 										<h4>Programmiersprachen</h4>
@@ -365,7 +365,6 @@
 
 
 		<section id="skill-diagramm">
-
 			<div class="triangle-skills"></div>
 			<div class="container">
 				<div class="row">
@@ -374,29 +373,28 @@
 							<li>
 								<h4>ERP-System</h4>
 								<h3 class="skills-program">Plentymarkets</h3>
-								<p>Bei meiner aktuellen Arbeitsstelle wird bereichsübergreifend plentymarkets eingesetzt. Als Mitarbeiter des IT-Teams erstelle ich beispielsweise Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
-									und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, erweitere ich stetig meine Kenntnisse in diesem Bereich.
+								<p>Bei meiner aktuellen Arbeitsstelle wird bereichsübergreifend plentymarkets eingesetzt. Als Mitarbeiter des IT-Teams erstelle ich unter anderem Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
+									und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, erweitere ich hierbei stetig meine Kenntnisse.
 								</p>
 							</li>
 							<li>
 								<h4>Textverarbeitungs- & Tabellenkalkulations<div class="break-mobile">-<br></div>programme</h4>
 								<h3 class="skills-program">Microsoft Word & Excel&nbsp;&nbsp;&#124;&nbsp;&nbsp;OpenOffice Writer & Calc</h3>
-								<p>Vertieft habe ich meine Microsoft Word und Excel Kenntnisse in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Für den Import und Export von CSV-Daten verwende ich stellenweise OpenOffice Calc.</p>
+								<p>Vertieft habe ich meine Kenntnisse in Microsoft Word und Excel in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Für den Import und Export von CSV-Daten verwende ich stellenweise OpenOffice Calc.</p>
 							</li>
 							<li>
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
 								<h3 class="skills-program">Paint.net&nbsp;&nbsp;&#124;&nbsp;&nbsp;Inkscape&nbsp;&nbsp;&#124;&nbsp;&nbsp;Photoshop</h3>
-								<p>Schon bei meinen ersten Websiten startete ich mit der Bearbeitung von Grafiken und der Erstellung von Gifs. Vor der Einführung des Abosystems von Adobe, arbeitete ich wiederkehrend mit Photoshop. Bei der Grafikerstellung und -bearbeitung ist jedoch bis heute mein ständiger Begleiter Paint.NET. Meine Vektorgrafiken erstelle ich mit Inkscape.</p>
+								<p>Schon bei meinen ersten Websiten startete ich mit der Bearbeitung von Grafiken und der Erstellung von GIFs. Vor der Einführung des Abosystems von Adobe, arbeitete ich wiederkehrend mit Photoshop. Bei der Grafikerstellung und -bearbeitung ist jedoch bis heute mein ständiger Begleiter Paint.NET. Meine Vektorgrafiken erstelle ich mit Inkscape.</p>
 							</li>
 							<li>
 								<h4>Weitere</h4>
 								<h3 class="skills-program">Microsoft PowerPoint&nbsp;&nbsp;&#124;&nbsp;&nbsp;Microsoft Access&nbsp;&nbsp;&#124;&nbsp;&nbsp;10-Finger-Schreibsystem</h3>
-								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete im Unterricht regelmäßig mit PowerPoint. In dieser Zeit erlernte ich das 10-Finger-Schreibsystem.</p>
+								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete regelmäßig mit PowerPoint. In dieser Zeit erlernte ich zudem das 10-Finger-Schreibsystem.</p>
 							</li>
 						</ul>
 						<img src="img/skills.png" class=""></img>
-						</div>
-
+					</div>
 				</div>
 			</div>
 		</section>
@@ -425,7 +423,7 @@
 									</li>
 									<li>
 										<h4>Webdesign & Grafikbearbeitung</h4>
-										<p>Wie bereits beschrieben, erstelle und gestalte ich in meiner Freizeit gerne Websiten. Ich erstelle, bearbeite und optimiere Grafiken und Fotografien, unter anderem auch für Freunde.</p>
+										<p>In meiner Freizeit konzipiere ich gerne Websiten. Ich erstelle, bearbeite und optimiere Grafiken und Fotografien, unter anderem auch für Freunde.</p>
 									</li>
 									<li>
 										<h4>Exploring</h4>
@@ -433,7 +431,7 @@
 									</li>
 									<li>
 										<h4>Schwimmen & Fußball</h4>
-										<p>Als sportlichen Ausgleich gehe ich regelmäßig schwimmen. Ich bin langjähriger Fan von Manchester United.</p>
+										<p>Als sportlichen Ausgleich gehe ich gerne regelmäßig schwimmen. Ich bin langjähriger Fan von Manchester United.</p>
 									</li>
 									<li>
 										<h4>Lesen</h4>
