@@ -40,7 +40,7 @@
 			</div>
 
 			<div class="avatar-hello-position">
-				<div class="avatar-hello"><img src="img/avatar_hello.gif"></img></div>
+				<div class="avatar-hello"><img src="img/avatar_hello.png"></img></div>
 			</div>
 
 			<div class="traffic-light"><img src="img/header/traffic_light_red.png"></img></div>
@@ -105,7 +105,7 @@
 						<p>
 							Es freut mich, dass du den Weg auf meine Website gefunden hast! Mein Name ist Johannes Wolters. Ich bin 25 Jahre alt und wohne aktuell in einem beschaulichen Ort Namens Bocket an der niederländischen Grenze.<br><br>
 							Durch mein frühes Interesse an Informationstechniken und meinem schulischen und beruflichen wirtschaftlichen Werdegang, begeistern mich insbesondere IT-Themen mit wirtschaftlichen Zusammenhängen.
-							Dabei witme ich mich auch in meiner Freizeit gerne verschiedener IT-Projekte. So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
+							Dabei witme ich mich gerne verschiedener IT-Projekte. So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
 						</p>
 							<div class="row">
 								<img src="img/signature.png" class="signature">
