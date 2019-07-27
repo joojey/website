@@ -414,36 +414,49 @@
 								<h3>Freizeitaktivitäten</h3>
 								<h1>Hobbys</h1>
 								<h2>So gestalte ich meine Freizeit.</h2>
-								<div class="butterfly"></div>
-								<div class="avatar avatar-hobby"><img src="img/avatar_hobbys.png"></img></div>
 							</div>
-
-							<div class="col-12 text-left">
+							<div class="col-md-6 text-left">
 								<ul>
 									<li>
 										<h4>Musikproduktion</h4>
-										<p>Musik ist schon immmer ein leidenschaftlicher Teil meines Lebens. Ich erstelle genreübergreifende elektronische Musik. Diese erstelle ich mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben den vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
+										<p>Musik ist schon immmer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte, später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben den vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
 									</li>
 									<li>
-										<h4>Webdesign & Grafikbearbeitung</h4>
-										<p>In meiner Freizeit konzipiere ich gerne Websiten. Ich erstelle, bearbeite und optimiere Grafiken und Fotografien, unter anderem auch für Freunde.</p>
+										<h4>Webdesign &#124; Grafikbearbeitung</h4>
+										<p>Bereits seit meiner Jugend konzipiere ich gerne Websiten und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
 									</li>
+									<li>
+										<h4>Programmieren</h4>
+										<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern, so fing es bereits damals an. Mit der Erlernung von Java ist das Programmieren jedoch nun zu meinem echten Hobby geworden.</p>
+									</li>
+								</ul>
+							</div>
+								<div class="col-md-6 text-left">
+								<ul>
 									<li>
 										<h4>Exploring</h4>
-										<p>In die Natur einzutauchen - neue, spannende Orte zu entdecken, das ist das Gegenstück zu meinen vielen technischen Interessen. Unter anderem erkunde und dokumentiere ich dabei verlassene Orte, die mich in vergangene, längst vergessene Zeiten eintauchen lassen.</p>
+										<p>In die Natur einzutauchen - neue, spannende Orte zu entdecken, das ist das Gegenstück zu meinen vielen technischen Vorlieben. Neben der Natur, erkunde und dokumentiere ich dabei verlassene Orte, die mich in vergangene, längst vergessene Zeiten eintauchen lassen.</p>
 									</li>
 									<li>
-										<h4>Schwimmen & Fußball</h4>
+										<h4>Schwimmen &#124; Fußball</h4>
 										<p>Als sportlichen Ausgleich gehe ich gerne regelmäßig schwimmen. Ich bin langjähriger Fan von Manchester United.</p>
 									</li>
 									<li>
 										<h4>Lesen</h4>
 										<p>Mit meiner Begeisterung zur Astronomie und zu Vordenkern Ihrer Zeit, wie Jules Verne oder Arthur C. Clarke, lese ich am liebsten Science Fiction Bücher.</p>
 									</li>
+
 								</ul>
+							</div>
+							<div class="col-12">
+
+								<div class="butterfly"></div>
+								<div class="avatar avatar-hobby"><img src="img/avatar_hobbys.png"></img></div>
 							</div>
 						</div>
 				</div>
+
+
 
 				<div class="triangle-above">
 					<div class="triangle-bottom"></div>
@@ -458,7 +471,7 @@
 					<div class="col-12">
 						<h3>Dokumente</h3>
 						<h1>Unterlagen</h1>
-						<div class="avatar"><img src="img/avatar_documents.gif"></img></div>
+						<div class="avatar avatar-documents"><img src="img/avatar_documents.gif"></img></div>
 						<div class=""><h2>Ein tieferer Einblick.</h2></div>
 
 						<div class="row documents-row">
