@@ -34,7 +34,7 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -51,6 +51,10 @@ h2 {
   h2 {
     font-size: 1.5rem;
     text-align: center;
+  }
+
+  h4 {
+    font-size: 21px!important;
   }
 }
 
@@ -339,6 +343,36 @@ a {
   .aboutme h3{
     padding-top: 0px;
   }
+
+  .skills-script, .skills-program {
+    margin-left: 50%!important;
+    transform: translateX(-50%);
+    width: 100%;
+    padding-right: 10px!important;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .assessment {
+    margin-left: 50%!important;
+    transform: translateX(-50%);
+  }
+
+  th {
+    padding-right: 8px;
+  }
+
+  table {
+    overflow: hidden!important;
+  }
+
+  .mobile-hidden {
+    display: none!important;
+  }
+
+  .break-mobile {
+    display: inline;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -352,6 +386,13 @@ a {
     left: -10%;
   }
 
+  .mobile-hidden-text {
+    display: inline;
+  }
+
+  .break-mobile {
+    display: none;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1070,7 +1111,7 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdbc9c', endColorstr='#a21c75',GradientType=1 );
   transform: skewY(-3deg);
   width: 100%;
-  height: 108%;
+  height: 100%;
   position: absolute;
   transform-origin: right;
   margin-top: -115px;
@@ -1093,32 +1134,152 @@ a {
   margin-top: -10px;
 }
 
-.skills-script{
+.skills-assessment {
+background: #000;
+position: relative;
+left: 50%;
+-webkit-transform: translate(-50%);
+-ms-transform: translate(-50%);
+transform: translate(-50%);
+width: 60%;
+height: 1px;
+z-index: 400;
+margin-top: 5px;
+margin-bottom: 80px;
+}
+
+.skills-assessment:before {
+  content: '1';
+  color: #fff;
+  vertical-align: middle;
+  line-height: 27px;
+  height: 28px;
+  width: 28px;
+  background: rgb(56,56,56);
+  background: -moz-linear-gradient(-45deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(135deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000',GradientType=1 );
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  left: -1px;
+  margin-top: -14px;
+  z-index: 2;
+}
+
+.skills-assessment:after {
+  content: '10';
+  color: #fff;
+  vertical-align: middle;
+  line-height: 37px;
+  font-size: 18px;
+  height: 38px;
+  width: 38px;
+  background: rgb(56,56,56);
+  background: -moz-linear-gradient(-45deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(135deg, rgba(56,56,56,1) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#000000',GradientType=1 );
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  right: -1px;
+  margin-top: -18px;
+  z-index: 2;
+}
+
+.skills-assessment h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.assessment {
+color: #000;
+display: inline-table;
+vertical-align: middle;
+text-align: center;
+font-size: 14px;
+font-weight: normal;
+line-height: 24px;
+height: 24px;
+width: 24px;
+background: #fcf1d8;
+border-radius: 50%;
+margin-top: -5px;
+margin-left: 10px;
+z-index: 2;
+}
+
+.table-skills {
+  padding-right: 0px;
   font-size: 1rem;
   letter-spacing: .04em;
-  padding: 10px 0px 0px 0px;
   margin: 0;
   font-weight: 900;
+  position: relative;
+  font-family: 'roboto';
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: .2em;
+  padding-top: 1.3em;
+  line-height: 1.0em;
   background: #a21c75;
-  background: -moz-linear-gradient(left, #a21c75 0%, #ca1d76 32%, #fd3c73 66%, #ed9b5c 87%, #fdbc9c 100%);
-  background: -webkit-linear-gradient(left, #a21c75 0%,#ca1d76 32%,#fd3c73 66%,#ed9b5c 87%,#fdbc9c 100%);
-  background: linear-gradient(to right, #a21c75 0%,#ca1d76 32%,#fd3c73 66%,#ed9b5c 87%,#fdbc9c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a21c75', endColorstr='#fdbc9c',GradientType=1 );
+  background: -moz-linear-gradient(45deg, #a21c75 0%, #ca1d76 32%, #fd3c73 90%);
+  background: -webkit-linear-gradient(45deg, #a21c75 0%,#ca1d76 32%,#fd3c73 90%);
+  background: linear-gradient(45deg, #a21c75 0%,#ca1d76 32%,#fd3c73 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a21c75', endColorstr='#fd3c73',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grey {
+  font-size: 0.9em;
+  font-weight: 900;
+  padding-top: 5px;
+  background: #b92473;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-script{
+  display: inline-table;
+  font-size: 1rem;
+  letter-spacing: .04em;
+  padding: 0px 0px 0px 0px;
+  margin-top: 20px;
+  font-weight: 900;
+  background: #a21c75;
+  background: -moz-linear-gradient(45deg, #a21c75 0%, #ca1d76 32%, #fd3c73 90%);
+  background: -webkit-linear-gradient(45deg, #a21c75 0%,#ca1d76 32%,#fd3c73 90%);
+  background: linear-gradient(45deg, #a21c75 0%,#ca1d76 32%,#fd3c73 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a21c75', endColorstr='#fd3c73',GradientType=1 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .skills-program {
+  display: inline-table;
   font-size: 1rem;
   letter-spacing: .04em;
-  padding: 10px 0px 0px 0px;
-  margin: 0;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
   font-weight: 900;
-  background: #fff1cb;
-  background: -moz-linear-gradient(left, #fff1cb 1%, #ffeb91 34%, #ffbe63 68%, #ff994b 100%);
-  background: -webkit-linear-gradient(left, #fff1cb 1%,#ffeb91 34%,#ffbe63 68%,#ff994b 100%);
-  background: linear-gradient(to right, #fff1cb 1%,#ffeb91 34%,#ffbe63 68%,#ff994b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff1cb', endColorstr='#ff994b',GradientType=1 );
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff1cb+1,ffeb91+60 */
+  background: #fff1cb; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fff1cb 1%, #ffeb91 60%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fff1cb 1%,#ffeb91 60%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fff1cb 1%,#ffeb91 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff1cb', endColorstr='#ffeb91',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold {
+  font-size: 0.9em;
+  font-weight: 900;
+  padding-top: 5px;
+  background: #ffeaba;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1127,11 +1288,11 @@ a {
   position: relative;
   height: 100%;
   margin-top: 70px;
+  padding-bottom: 100px;
 }
 
 #skill-diagramm h4 {
   position: relative;
-  font-size: 24px;
   font-family: 'roboto';
   font-weight: 900;
   margin-bottom: .2em;
@@ -1147,29 +1308,17 @@ a {
 #skill-diagramm p {
   color: #fdf4e9;
   padding-bottom: 30px;
-  text-shadow: 0px 2px 3px #AA0044;
+  text-shadow: 1px 1px 2px #800033;
 }
 
 #skills img {
-  margin-top: 60px;
   width: 90%;
   display: block;
+  padding: 0 0 100px 0;
 }
 
 #skill-diagramm img {
   width: 100%;
-}
-
-@media (max-width: 514px) {
-  #skill-diagramm .break-mobile {
-    display: inline;
-  }
-}
-
-@media (min-width: 515px) {
-  #skill-diagramm .break-mobile {
-    display: none;
-  }
 }
 
 #activities{
@@ -1177,7 +1326,16 @@ a {
   width: 100%;
   height: 100%;
   padding-top: 100px;
+}
+
+.activities-skills {
   background: #efefef;
+  transform: skewY(-3deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-origin: right;
+  margin-top: -115px;
 }
 
 #activities p {
@@ -1292,15 +1450,19 @@ a {
 }
 
 #documents {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .documents-row {
-  margin: 200px 0;
+  margin: 200px 0 160px 0;
 }
 
 #documents .col-sm-4 {
   padding: 0;
+}
+
+#contact {
+  margin-top: 150px;
 }
 
 #contact h1 {
