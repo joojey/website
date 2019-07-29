@@ -82,7 +82,7 @@
 				<a class="nav-item nav-link" href="#werdegang-scroll">Werdegang</a>
 				<a class="nav-item nav-link" href="#jobs">Berufe</a>
 				<a class="nav-item nav-link" href="#skills">Skills</a>
-				<a class="nav-item nav-link" href="#activities">Hobbys</a>
+				<a class="nav-item nav-link" href="#hobbys">Hobbys</a>
 				<a class="nav-item nav-link" href="#contact">Kontakt</a>
 			</div>
 		</div>
@@ -98,7 +98,6 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-12">
-
 				<div class="aboutme">
 					<h3>Über mich</h3>
 					<h2>Hallo, ich bin Johannes.</h2>
@@ -109,13 +108,12 @@
 						Dabei witme ich mich gerne verschiedener IT-Projekte. So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
 					</p>
 					<div class="row">
-						<img src="img/signature.png" class="signature">
+						<img src="img/handwritten.png" class="handwritten">
 					</div>
 					<hr>
 					<p style="padding:0;">
 						Diese Website findest du auch auf meinem <a target="_blank" href="https://github.com/joojey">GitHub-Profil</a>.
 					</p>
-
 				</div>
 			</div>
 		</div>
@@ -180,7 +178,7 @@
 							- Optimierung des Designs und der Usability des Online-Shops.<br>
 							- Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.<br>
 							- Erstellung eines Mitarbeiterbeurteilungs-Systems.<br><br>
-							Weitere Informationen zu meinem aktuellen Job findest du im <a class="" href="../documents/reference.pdf#zoom=150">Zwischenzeugnis</a>.</p>
+							Weitere Informationen zu meinem aktuellen Job findest du im <a href="../documents/reference.pdf#zoom=150">Zwischenzeugnis</a>.</p>
 						</div>
 					</div>
 
@@ -263,10 +261,10 @@
 
 <!-- BERUFSERFAHRUNG -->
 <section id="workexperience">
-	<div class="container" id="jobs">
+	<div class="container">
 		<div class="row text-center">
 			<div class="col-12">
-				<h3>Berufserfahrung</h3>
+				<h3 id="jobs">Berufserfahrung</h3>
 				<h1>Berufe</h1>
 				<h2>Verteilung meiner Aufgaben.</h2>
 			</div>
@@ -290,7 +288,7 @@
 					<li><p>Kundensupport und Verkaufstätigkeiten</p></li>
 					<li><p>Abmahn- und Datenschutz</p></li>
 					<li><p>Preisoptimerung über Repricing-Tools</p></li>
-					<li><p>Weitere im <a class="" href="../documents/reference.pdf#zoom=150">Zwischenzeugnis</a></p></li>
+					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=150">Zwischenzeugnis</a></p></li>
 				</ul>
 			</div>
 
@@ -311,7 +309,7 @@
 					<li><p>Erstellung und Kontrolle von Rechnungen</p></li>
 					<li><p>Dokumentenverwaltung und -ablage</p></li>
 					<li><p>Softwareupdates an Rasenrobotern</p></li>
-					<li><p>Weitere im <a class="" href="../documents/reference.pdf#zoom=150">Ausbidungszeugnis</a></p></li>
+					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=150">Ausbidungszeugnis</a></p></li>
 				</ul>
 			</div>
 		</div>
@@ -336,7 +334,7 @@
 			<div class="col-12">
 				<h3>Know-how</h3>
 				<h1>Kenntnisse</h1>
-				<h2 class="">Womit ich Erfahrung gesammelt habe.</h2>
+				<h2>Womit ich Erfahrung gesammelt habe.</h2>
 				<div class="skills-assessment">BEWERTUNG<div class="mobile-hidden mobile-hidden-text">SSKALA</div></div>
 			</div>
 		</div>
@@ -458,26 +456,13 @@
 			<div class="row">
 				<div class="col-12">
 					<ul>
-						<li>
-							<h4>ERP-System</h4>
-							<table>
-								<tr>
-									<th>
-										<h3 class="skills-program">Plentymarkets</h3>
-										<div class="assessment">8</div>
-									</th>
-								</tr>
-							</table>
-							<p>Bei meiner aktuellen Arbeitsstelle verwenden wir bereichsübergreifend plentymarkets. Als Mitarbeiter des IT-Teamserstelle ich unter anderem Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
-								und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, konnte ich meine Kenntnisse stetig erweitern.</p>
-							</li>
 							<li>
 								<h4>Textverarbeitung & Tabellenkalkulation</h4>
 								<table>
 									<tr >
-										<th class=""><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Word & Excel</h3><div class="assessment">9</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Word & Excel</h3><div class="assessment">9</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th class=""><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Open Office</div> Writer & Calc</h3><div class="assessment">7</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Open Office</div> Writer & Calc</h3><div class="assessment">7</div></th>
 									</tr>
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">2007 <</td>
@@ -491,11 +476,11 @@
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
 								<table>
 									<tr>
-										<th class=""><h3 class="skills-program">Paint.net</h3><div class="assessment">9</div></th>
+										<th><h3 class="skills-program">Paint.net</h3><div class="assessment">9</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th class=""><h3 class="skills-program">Inkscape</h3><div class="assessment">4</div></th>
+										<th><h3 class="skills-program">Inkscape</h3><div class="assessment">4</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th class=""><h3 class="skills-program">Photoshop</h3><div class="assessment">4</div></th>
+										<th><h3 class="skills-program">Photoshop</h3><div class="assessment">4</div></th>
 									</tr>
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">3.10 <</td>
@@ -508,25 +493,35 @@
 								<p>Schon bei meinen ersten Websiten startete ich mit der Bearbeitung von Grafiken und der Erstellung von GIFs. Vor der Einführung des Abosystems von Adobe, arbeitete ich wiederkehrend mit Photoshop. Bei der Grafikerstellung und -bearbeitung ist jedoch bis heute mein ständiger Begleiter Paint.NET. Meine Vektorgrafiken erstelle ich mit Inkscape.</p>
 							</li>
 							<li>
+								<h4>ERP-System</h4>
+								<table>
+									<tr>
+										<th><h3 class="skills-program">Plentymarkets</h3><div class="assessment">8</div></th>
+									</tr>
+								</table>
+								<p>Bei meiner aktuellen Arbeitsstelle verwenden wir bereichsübergreifend plentymarkets. Als Mitarbeiter des IT-Teamserstelle ich unter anderem Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
+									und der zusätzlichen Zusammenarbeit eines plentymarkets Dienstleiters, konnte ich meine Kenntnisse stetig erweitern.</p>
+								</li>
+							<li>
 								<h4>Weitere</h4>
 								<table>
 									<tr>
-										<th class=""><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> PowerPoint</h3><div class="assessment">5</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> PowerPoint</h3><div class="assessment">5</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th class=""><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Access</h3><div class="assessment">2</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Access</h3><div class="assessment">2</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th class=""><h3 class="skills-program">Touch typing</h3><div class="assessment">8</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Touch </div>typing</h3><div class="assessment">8</div></th>
 									</tr>
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">2007 <</td>
-										<th class=""><h3 class="skills-program"></h3></th>
+										<th><h3 class="skills-program"></h3></th>
 										<td class="table-skills gold">2010 ></td>
 									</tr>
 								</table>
 								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete regelmäßig mit PowerPoint. In dieser Zeit erlernte ich zudem das 10-Finger-Schreibsystem.</p>
 							</li>
 						</ul>
-						<!--	<img src="img/skills.png" class=""></img> -->
+						<!--	<img src="img/skills.png"></img> -->
 					</div>
 
 				</div>
@@ -542,22 +537,22 @@
 				<h3>Dokumente</h3>
 				<h1>Unterlagen</h1>
 				<div class="avatar avatar-documents"><img src="img/avatar_documents.gif"></img></div>
-				<div class=""><h2>Ein tieferer Einblick.</h2></div>
+				<h2>Ein tieferer Einblick.</h2>
 
 				<div class="row documents-row">
 					<div class="col-sm-4">
 						<div class="button">
-							<a class="" href="../documents/cv.pdf#zoom=150">Lebenslauf</a>
+							<a href="../documents/cv.pdf#zoom=150">Lebenslauf</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="button">
-							<a class="" href="../documents/certificates.pdf#zoom=150">Zertifikate</a>
+							<a href="../documents/certificates.pdf#zoom=150">Zertifikate</a>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="button">
-							<a class="" href="../documents/reference.pdf#zoom=150">Arbeitszeugnisse</a>
+							<a href="../documents/reference.pdf#zoom=150">Arbeitszeugnisse</a>
 						</div>
 					</div>
 				</div>
@@ -568,11 +563,19 @@
 
 <!-- HOBBYS -->
 <section id="activities">
-	<div class="activities-skills"></div>
+	<div class="activities-skills">
+			<div class="clouds cloud1"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud2"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud3"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud4"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud5"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud6"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud6"><img src="img/header/cloud.svg"></img></div>
+	</div>
 	<div class="container">
 		<div class="row" style="margin-bottom:300px;">
 			<div class="col-12 text-center">
-				<h3>Freizeitaktivitäten</h3>
+				<h3 id="hobbys">Freizeitaktivitäten</h3>
 				<h1>Hobbys</h1>
 				<h2>So gestalte ich meine Freizeit.</h2>
 			</div>
