@@ -357,6 +357,7 @@ a {
   .break-mobile {
     display: inline;
   }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -991,9 +992,9 @@ a {
 }
 
 .work-triangle-above {
-  margin-top: -310px;
+  margin-top: -250px;
   width: 100%;
-  height: 330px;
+  height: 250px;
   position: relative;
 }
 
@@ -1018,7 +1019,7 @@ a {
   width: 500px;
   left: 50%;
   margin-left: -180px;
-  margin-top: 10px;
+  margin-top: 0px;
   z-index: 2;
 }
 
@@ -1368,13 +1369,13 @@ transform: rotate(10deg) skew(-5deg, -10deg);
 
 #activities .clouds {
   position: absolute;
-  z-index: 12;
-  width: 10%;
-}
-
-#activities .clouds img {
-  width: 100%;
+  width: 290px;
+  height: 290px;
+  background-image: url("../img/cloud.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
   opacity: 0.6;
+  z-index: 2;
 }
 
 #activities .cloud1 {
@@ -1383,20 +1384,19 @@ transform: rotate(10deg) skew(-5deg, -10deg);
   -webkit-animation: moveclouds 45s linear infinite;
 	-moz-animation: moveclouds 45s linear infinite;
 	-o-animation: moveclouds 45s linear infinite;
-  overflow: hidden;
 }
 
 #activities .cloud2 {
 	margin-left: 400px;
-  margin-top: 140px;
-	-webkit-animation: moveclouds 30s linear infinite;
-	-moz-animation: moveclouds 30s linear infinite;
-	-o-animation: moveclouds 30s linear infinite;
+  margin-top: 170px;
+	-webkit-animation: moveclouds 32s linear infinite;
+	-moz-animation: moveclouds 32s linear infinite;
+	-o-animation: moveclouds 32s linear infinite;
 }
 
 #activities .cloud3 {
 	margin-left: 0px;
-  margin-top: -20px;
+  margin-top: 0px;
 	-webkit-animation: moveclouds 34s linear infinite;
 	-moz-animation: moveclouds 34s linear infinite;
 	-o-animation: moveclouds 34s linear infinite;
@@ -1418,27 +1418,34 @@ transform: rotate(10deg) skew(-5deg, -10deg);
 }
 
 #activities .cloud6 {
-	margin-left: -300px; margin-top: -300px;
+	margin-left: -300px; margin-top: -200px;
 	-webkit-animation: moveclouds 50s linear infinite;
 	-moz-animation: moveclouds 50s linear infinite;
 	-o-animation: moveclouds 50s linear infinite;
 }
 
 #activities .cloud7 {
-	margin-left: -600px; margin-top: -200px;
+	margin-left: -700px; margin-top: -150px;
 	-webkit-animation: moveclouds 50s linear infinite;
 	-moz-animation: moveclouds 50s linear infinite;
 	-o-animation: moveclouds 50s linear infinite;
 }
 
+#activities .cloud8 {
+	margin-left: -400px; margin-top: -140px;
+	-webkit-animation: moveclouds 40s linear infinite;
+	-moz-animation: moveclouds 40s linear infinite;
+	-o-animation: moveclouds 40s linear infinite;
+}
+
 @-webkit-keyframes moveclouds {
-  from {
-    left: 30%;
-    transform: translateY(-100%);
+  0% {
+    left: 35%;
+    transform: translateY(-10vw);
   }
-  to {
+  100% {
     left: 100%;
-    transform: translateY(350%);
+    transform: translateY(22vw);
   }
 }
 

@@ -348,14 +348,14 @@
 							<tr>
 								<th>
 									<h3 class="skills-script">HTML</h3>
-									<div class="assessment">9</div>
+									<div class="assessment">10</div>
 								</th>
 								<th class="mobile-hidden">
 									<h3 class="skills-script">  |  </h3>
 								</th>
 								<th>
 									<h3 class="skills-script">CSS</h3>
-									<div class="assessment">9</div>
+									<div class="assessment">10</div>
 								</th>
 								<th class="mobile-hidden">
 									<h3 class="skills-script">  |  </h3>
@@ -411,7 +411,7 @@
 								</th>
 								<th>
 									<h3 class="skills-script">Ruby<div class="mobile-hidden mobile-hidden-text"> on Rails</div>
-									</h3><div class="assessment">3</div>
+									</h3><div class="assessment">2</div>
 								</th>
 							</tr>
 							<tr class="mobile-hidden">
@@ -435,7 +435,7 @@
 							<tr>
 								<th>
 									<h3 class="skills-script">Java</h3>
-									<div class="assessment">2</div>
+									<div class="assessment">4</div>
 								</th>
 							</tr>
 							<tr class="mobile-hidden">
@@ -460,7 +460,7 @@
 								<h4>Textverarbeitung & Tabellenkalkulation</h4>
 								<table>
 									<tr >
-										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Word & Excel</h3><div class="assessment">9</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Word & Excel</h3><div class="assessment">10</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
 										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Open Office</div> Writer & Calc</h3><div class="assessment">7</div></th>
 									</tr>
@@ -476,7 +476,7 @@
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
 								<table>
 									<tr>
-										<th><h3 class="skills-program">Paint.net</h3><div class="assessment">9</div></th>
+										<th><h3 class="skills-program">Paint.net</h3><div class="assessment">10</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
 										<th><h3 class="skills-program">Inkscape</h3><div class="assessment">4</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
@@ -496,7 +496,7 @@
 								<h4>ERP-System</h4>
 								<table>
 									<tr>
-										<th><h3 class="skills-program">Plentymarkets</h3><div class="assessment">8</div></th>
+										<th><h3 class="skills-program">Plentymarkets</h3><div class="assessment">10</div></th>
 									</tr>
 								</table>
 								<p>Bei meiner aktuellen Arbeitsstelle verwenden wir bereichsübergreifend plentymarkets. Als Mitarbeiter des IT-Teamserstelle ich unter anderem Merkmale, Attribute und Facetten für Artikeldaten und Webshopfilter. Mit dem Besuch des jährlichen plentymarkets Online-Händler Kongresses
@@ -510,7 +510,7 @@
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
 										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Access</h3><div class="assessment">2</div></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Touch </div>typing</h3><div class="assessment">8</div></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Touch </div>typing</h3><div class="assessment">9</div></th>
 									</tr>
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">2007 <</td>
@@ -564,13 +564,14 @@
 <!-- HOBBYS -->
 <section id="activities">
 	<div class="activities-skills">
-			<div class="clouds cloud1"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud2"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud3"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud4"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud5"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud6"><img src="img/header/cloud.svg"></img></div>
-			<div class="clouds cloud6"><img src="img/header/cloud.svg"></img></div>
+			<div class="clouds cloud1"></div>
+			<div class="clouds cloud2"></div>
+			<div class="clouds cloud3"></div>
+			<div class="clouds cloud4"></div>
+			<div class="clouds cloud5"></div>
+			<div class="clouds cloud6"></div>
+			<div class="clouds cloud7"></div>
+			<div class="clouds cloud8"></div>
 	</div>
 	<div class="container">
 		<div class="row" style="margin-bottom:300px;">
