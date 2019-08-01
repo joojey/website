@@ -196,11 +196,21 @@ a {
   width: 190px
 }
 
+.avatar-skills img {
+  z-index: 1;
+  right: 3%;
+  margin-top: -8%;
+}
+
 @media (max-width: 864px) {
   .avatar img {
     margin-top: 60px;
     margin-left: -75px;
     width: 150px
+  }
+
+  .avatar-skills img {
+    margin-top: -5%;
   }
 
   .avatar-hobby img {
@@ -1329,16 +1339,6 @@ a {
   padding-bottom: 30px;
   color: #fdf4e9;
   text-shadow: 1px 1px 2px #800033
-}
-
-#skills img {
-  display: block;
-  padding: 0 0 100px 0;
-  width: 90%
-}
-
-#skill-diagramm img {
-  width: 100%
 }
 
 #activities {

@@ -445,10 +445,10 @@
 						<p>Seit diesem Jahr lerne ich, als meine erste Programmiersprache Java.</p>
 					</li>
 				</ul>
+							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
 			</div>
 		</div>
 	</div>
-
 
 	<section id="skill-diagramm">
 		<div class="triangle-skills"></div>
