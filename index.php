@@ -132,7 +132,6 @@
 								<img src="img/space_shuttle.png" class="space-shuttle transition-up-shuttle"></img>
 
 								<div class="avatarinspace-position"><img src="img/avatarinspace.png" class="avatarinspace"></img></div>
-
 								<div class="moon"></div>
 							</div>
 						</div>

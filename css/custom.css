@@ -358,6 +358,12 @@ a {
     padding-top: 0px
   }
 
+  .space-shuttle {
+    margin-left: 75% !important;
+    margin-top: 3100px !important;
+    width: 90px !important
+  }
+
   th {
     padding-right: 8px
   }
@@ -861,21 +867,21 @@ a {
 
 .space-shuttle {
   position: absolute;
-  z-index: 7;
+  z-index: 10;
   animation: Liftoff 0.15s linear infinite;
   transition: all 1.4s ease-out;
-  margin-top: 2400px;
+  margin-top: 2700px;
   margin-left: 15%;
-  width: 100px
+  width: 120px
 }
 
 @keyframes Liftoff {
   50% {
-    left: 0.1em
+    left: 1px
   }
 
   50% {
-    right: 0.1em
+    right: 1px
   }
 }
 
