@@ -535,7 +535,7 @@
 			<div class="col-12">
 				<h3>Dokumente</h3>
 				<h1>Unterlagen</h1>
-				<div class="avatar avatar-documents"><img src="img/avatar_documents.gif"></img></div>
+				<div class="avatar avatar-documents"><img src="img/avatar_documents.png"></img></div>
 				<h2>Ein tieferer Einblick.</h2>
 
 				<div class="row documents-row">
@@ -583,7 +583,7 @@
 				<ul>
 					<li>
 						<h4>Musikproduktion</h4>
-						<p>Musik ist schon immmer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte, später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben den vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
+						<p>Musik ist schon immer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte, später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben den vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
 					</li>
 					<li>
 						<h4>Webdesign | Grafikbearbeitung</h4>
