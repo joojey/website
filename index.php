@@ -586,12 +586,12 @@
 						<p>Musik ist schon immer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte, später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben den vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
 					</li>
 					<li>
-						<h4>Webdesign | Grafikbearbeitung</h4>
-						<p>Bereits seit meiner Jugend konzipiere ich gerne Websiten und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
-					</li>
-					<li>
 						<h4>Programmieren</h4>
 						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern, so fing es bereits damals an. Mit der Erlernung von Java ist das Programmieren jedoch nun zu meinem echten Hobby geworden.</p>
+					</li>
+					<li>
+						<h4>Webdesign | Grafikbearbeitung</h4>
+						<p>Bereits seit meiner Jugend konzipiere ich gerne Websiten und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
 					</li>
 				</ul>
 			</div>
@@ -632,9 +632,8 @@
 			<h3>Kommunikation</h3>
 			<h1>Kontakt</h1>
 			<h2 class="text-center">Lass uns in Kontakt treten.</h2>
-			<div class="portrait"></div>
-			<div class="portrait-shadow"></div>
-
+			<!--<div class="portrait"></div>
+			<div class="portrait-shadow"></div>-->
 			<div class="row contact-form-row">
 				<div class="col-md-12">
 					<div class="form-group">
