@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
 
-.col-lg-6, .col-sm-4, .col-sm-3, .col-lg-4, .col-md-2, .col-md-10, .col-md-3, .col-md-9, .col-md-8, .col-md-6, .col-md-12 {
+.col-lg-6, .col-sm-4, .col-sm-3, .col-sm-6, .col-lg-4, .col-md-2, .col-md-10, .col-md-3, .col-md-9, .col-md-8, .col-md-6, .col-md-12 {
   display: inline
+}
+
+.col-sm-6 {
+  padding: 0 0 0 0;
 }
 
 p {
@@ -129,7 +133,7 @@ li:before {
 }
 
 a {
-  color: #1e85ca
+  color: #0074ec
 }
 
 .scrolltotop {
@@ -193,13 +197,14 @@ a {
 .avatar img {
   position: absolute;
   right: 10%;
-  width: 190px
+  width: 200px
 }
 
 .avatar-skills img {
   z-index: 1;
   right: 4%;
   margin-top: -8%;
+  width: 160px
 }
 
 @media (max-width: 864px) {
@@ -358,12 +363,6 @@ a {
     padding-top: 0px
   }
 
-  .space-shuttle {
-    margin-left: 75% !important;
-    margin-top: 3100px !important;
-    width: 90px !important
-  }
-
   th {
     padding-right: 8px
   }
@@ -378,6 +377,10 @@ a {
 
   .break-mobile {
     display: inline
+  }
+
+  .butterfly {
+    margin-left: 45% !important
   }
 }
 
@@ -512,37 +515,7 @@ a {
 
 .avatar-hello img {
   margin-left: 48%;
-  width: 4.6%
-}
-
-.balloon-position {
-  position: absolute;
-  margin-top: 22%;
-  width: 100%
-}
-
-.balloon {
-  position: absolute;
-  z-index: 12;
-  left: 42%;
-  bottom: 0;
-  animation: UpDown 4s linear infinite;
-  width: 8%
-}
-
-.balloon img {
-  position: absolute;
-  width: 100%
-}
-
-@keyframes UpDown {
-  0%, 100% {
-    bottom: 0
-  }
-
-  50% {
-    bottom: 30px
-  }
+  width: 5%
 }
 
 .train-position {
@@ -684,10 +657,10 @@ a {
   margin: 0
 }
 
-#werdegang a {
+#werdegang a, #workexperience a {
   font-weight: 400;
   text-decoration: underline;
-  color: #f7f7f7
+  color: #50b0ff
 }
 
 #werdegang h2 {
@@ -865,26 +838,6 @@ a {
   }
 }
 
-.space-shuttle {
-  position: absolute;
-  z-index: 10;
-  animation: Liftoff 0.15s linear infinite;
-  transition: all 1.4s ease-out;
-  margin-top: 2700px;
-  margin-left: 15%;
-  width: 120px
-}
-
-@keyframes Liftoff {
-  50% {
-    left: 1px
-  }
-
-  50% {
-    right: 1px
-  }
-}
-
 .stars {
   animation: stars 25s infinite;
   animation-timing-function: linear;
@@ -1009,7 +962,6 @@ a {
 
 #workexperience li:before {
   margin-top: 5px;
-  border: 2px solid #efefef;
   background: #2a87d8;
   background: -moz-linear-gradient(45deg, #2a87d8 0%, #62a9e4 100%);
   background: -webkit-linear-gradient(45deg, #2a87d8 0%, #62a9e4 100%);
@@ -1019,8 +971,8 @@ a {
 
 #workexperience ul:before {
   left: 8px;
-  width: 3px;
-  background: #E0E0E0
+  width: 2px;
+  background: #b7c8e6
 }
 
 @media (max-width: 770px) {
@@ -1035,10 +987,6 @@ a {
 
 #workexperience p {
   padding: 10px 0 20px 0
-}
-
-#workexperience a {
-  font-weight: 900
 }
 
 .work-triangle-above {
@@ -1067,10 +1015,9 @@ a {
 #workexperience .office {
   position: relative;
   z-index: 2;
-  left: 50%;
-  margin-top: 0px;
+  left: 65%;
   margin-left: -180px;
-  width: 500px
+  width: 460px
 }
 
 .workplace {
@@ -1083,15 +1030,6 @@ a {
   background-position: center;
   background-size: contain;
   text-align: center
-}
-
-.fuck {
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 900px
 }
 
 .workplace-text {
@@ -1115,7 +1053,7 @@ a {
 #skills {
   position: relative;
   z-index: 2;
-  margin-top: 100px;
+  margin-top: 80px;
   height: 100%
 }
 
@@ -1167,86 +1105,6 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdbc9c', endColorstr='#a21c75', GradientType=1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
-}
-
-.skills-assessment {
-  position: relative;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  transform: translate(-50%);
-  margin-top: 5px;
-  margin-bottom: 80px;
-  width: 60%;
-  height: 1px;
-  background: #000
-}
-
-.skills-assessment:before {
-  content: '1';
-  position: absolute;
-  z-index: 2;
-  left: -1px;
-  display: inline-block;
-  margin-top: -14px;
-  border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  background: rgb(56, 56, 56);
-  background: -moz-linear-gradient(-45deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  background: linear-gradient(135deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#000000', GradientType=1);
-  line-height: 27px;
-  vertical-align: middle;
-  color: #fff
-}
-
-.skills-assessment:after {
-  content: '10';
-  position: absolute;
-  z-index: 2;
-  right: -1px;
-  display: inline-block;
-  margin-top: -18px;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  background: rgb(56, 56, 56);
-  background: -moz-linear-gradient(-45deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  background: linear-gradient(135deg, rgba(56, 56, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#000000', GradientType=1);
-  font-size: 18px;
-  line-height: 37px;
-  vertical-align: middle;
-  color: #fff
-}
-
-.skills-assessment h3 {
-  margin: 0px;
-  padding: 0px
-}
-
-.assessment {
-  display: inline-table;
-  z-index: 2;
-  -moz-transform: rotate(8deg) skew(-4deg, -2deg);
-  -webkit-transform: rotate(2deg) skew(-4deg, -2deg);
-  -o-transform: rotate(8deg) skew(-4deg, -2deg);
-  -ms-transform: rotate(8deg) skew(-4deg, -2deg);
-  transform: rotate(10deg) skew(-5deg, -10deg);
-  margin-top: -8px;
-  margin-left: 10px;
-  border-radius: 0%;
-  width: 22px;
-  height: 24px;
-  background: #F3F3FF;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000
 }
 
 .table-skills {
@@ -1343,8 +1201,7 @@ a {
 
 #skill-diagramm p {
   padding-bottom: 30px;
-  color: #fdf4e9;
-  text-shadow: 1px 1px 2px #800033
+  color: #fff;
 }
 
 #activities {
@@ -1499,7 +1356,7 @@ a {
   overflow-x: hidden !important;
   animation: fly 8s linear infinite;
   margin-top: -7%;
-  margin-left: 68%;
+  margin-left: 62%;
   width: 44px;
   height: 44px;
   background-image: url("../img/butterfly.gif");
@@ -1585,16 +1442,38 @@ a {
 #contact h1 {
   display: inline-block;
   margin-top: -10px;
-  background: #d3e5ff;
-  background: -moz-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 28%, #157fdb 44%, #000000 66%);
-  background: -webkit-linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 28%, #157fdb 44%, #000000 66%);
-  background: linear-gradient(45deg, #d3e5ff 1%, #8aaffa 15%, #6fbbfd 28%, #157fdb 44%, #000000 66%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3e5ff', endColorstr='#000000', GradientType=1);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
+}
+
+#contact-form{
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #555;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    cursor: text
+  }
+
+.contact-input {
+    height: 50px;
+    padding-top: 1px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 30px;
+    color: #000;
+    animation: blinkingcursor step-end 1s infinite;
+    margin-left: 20px
+}
+
+@keyframes blinkingcursor{
+  from, to {
+  color: transparent;
+}
+50% {
+  color: black;
+}
 }
 
 .portrait {
@@ -1640,89 +1519,6 @@ a {
   height: 140px;
   width: 220px;
   background: #1d2023
-}
-
-.contact-form {
-  margin-bottom: 5%;
-  width: 100%
-}
-
-.contact-form .form-control {
-  border-radius: 0;
-  resize: none;
-  border: 1px solid #a5a5a5;
-  height: 50px
-}
-
-.form-control:focus {
-  outline: none !important;
-  border: 1px solid #a5a5a5;
-  border-color: inherit;
-  -webkit-box-shadow: none;
-  box-shadow: none
-}
-
-*:focus {
-  outline: none
-}
-
-.form-control:active {
-  outline: none !important;
-  border: 1px solid #a5a5a5
-}
-
-.contact-form form {
-  padding: 0%;
-  margin-bottom: -7%
-}
-
-.contact-form form {
-  margin-bottom: -7%
-}
-
-.contact-form .btnContact {
-  float: right;
-  border: 2px solid #71b4e1;
-  width: 100%;
-  padding: 1.5%;
-  background: #ffffff;
-  cursor: pointer;
-  font-weight: 600;
-  line-height: 2.0em;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #1e85ca
-}
-
-.btnContact:hover {
-  background: rgb(59, 148, 221);
-  background: -moz-linear-gradient(left, rgba(59, 148, 221, 1) 0%, rgba(121, 184, 233, 1) 100%);
-  background: -webkit-linear-gradient(left, rgba(59, 148, 221, 1) 0%, rgba(121, 184, 233, 1) 100%);
-  background: linear-gradient(to right, rgba(59, 148, 221, 1) 0%, rgba(121, 184, 233, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b94dd', endColorstr='#79b8e9', GradientType=1);
-  color: #fff
-}
-
-.contact-form-row {
-  margin-top: 50px;
-  margin-bottom: 130px
-}
-
-.form-control::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #777;
-  opacity: 1;
-  /* Firefox */
-}
-
-.form-control:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #777
-}
-
-.form-control::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #777
 }
 
 .triangle-section {
@@ -1842,20 +1638,20 @@ footer hr {
   display: block;
   overflow: hidden;
   height: 540px;
-  background: #a6acf8;
-  background: -moz-linear-gradient(left, #a6acf8 0%, #4e98e8 25%, #586eec 61%, #996de5 100%);
-  background: -webkit-linear-gradient(left, #a6acf8 0%, #4e98e8 25%, #586eec 61%, #996de5 100%);
-  background: linear-gradient(to right, #a6acf8 0%, #4e98e8 25%, #586eec 61%, #996de5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6acf8', endColorstr='#996de5', GradientType=1)
+  background: #528ae4;
+  background: -moz-linear-gradient(top, #4E9CDE 0%, #79b8e9 36%, #aed5e8 100%);
+  background: -webkit-linear-gradient(top, #4E9CDE 0%, #79b8e9 36%, #aed5e8 100%);
+  background: linear-gradient(to bottom, #4E9CDE 0%, #79b8e9 36%, #aed5e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#528ae4', endColorstr='#aed5e8', GradientType=0)
 }
 
 #header-impressum h1, #header-impressum h3 {
   padding: 84px 0 0 0;
-  background: #f7faff;
-  background: -moz-linear-gradient(45deg, #f7faff 1%, #eaf1fe 50%, #e3c3e5 100%);
-  background: -webkit-linear-gradient(45deg, #f7faff 1%, #eaf1fe 50%, #e3c3e5 100%);
-  background: linear-gradient(45deg, #f7faff 1%, #eaf1fe 50%, #e3c3e5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7faff', endColorstr='#e3c3e5', GradientType=1);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7faff+1,eaf1fe+50,ffffff+100&1+0,1+50,0.6+100 */
+  background: -moz-linear-gradient(left, rgba(247,250,255,1) 0%, rgba(247,250,255,1) 1%, rgba(234,241,254,1) 50%, rgba(255,255,255,0.6) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(247,250,255,1) 0%,rgba(247,250,255,1) 1%,rgba(234,241,254,1) 50%,rgba(255,255,255,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(247,250,255,1) 0%,rgba(247,250,255,1) 1%,rgba(234,241,254,1) 50%,rgba(255,255,255,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7faff', endColorstr='#99ffffff',GradientType=1 ); /* IE6-9 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
