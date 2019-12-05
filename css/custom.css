@@ -11,7 +11,7 @@
 p {
   margin-bottom: 1.2em;
   padding-top: 1.8em;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7em;
   font-family: 'roboto', sans-serif;
   letter-spacing: .03em
@@ -128,7 +128,7 @@ li:before {
   }
 
   li:before, ul:before {
-    display: none
+    display: none!important
   }
 }
 
@@ -1658,7 +1658,6 @@ footer hr {
 
 .bg-white-impressum {
   position: absolute;
-  z-index: 5;
   top: 142px;
   left: 0;
   display: block;

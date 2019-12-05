@@ -10,22 +10,20 @@
 
 	<title>Lernen Sie mich näher kennen</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/custom.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<!-- HEADER-->
 <section id="cityContainer">
 
 	<div class="bg-white"></div>
 
-	<!-- CITY SECTION -->
 	<div class="city-section">
 
 		<div class="carbon-neutral-position">
@@ -42,7 +40,6 @@
 			<div class="illuminated-sign"><img src="img/header/illuminated-sign.gif"></img></div>
 		</div>
 
-		<!-- CITY LAYER 1 -->
 		<div class="city-layer-top">
 			<img src="img/header/city_layertop.png"></img>
 		</div>
@@ -58,12 +55,10 @@
 			<div class="car"><img src="img/header/car.png" class="car-move"></img></div>
 		</div>
 
-		<!-- CITY LAYER 2 -->
 		<img class="city-background" src="img/header/city_background.png"></img>
 
 	</div>
 
-	<!-- NAVIGATION -->
 	<nav class="navbar navbar-expand-lg navbar-light ">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -81,10 +76,8 @@
 
 </section>
 
-<!-- SCROLL TO TOP BUTTON -->
 <div class="scrolltotop"><div class="scrolltotop-finger"></div></div>
 
-<!-- ABOUT -->
 <section id="about">
 	<div class="container text-center">
 		<div class="row">
@@ -111,7 +104,6 @@
 	</div>
 </section>
 
-<!-- WERDEGANG -->
 <section id="werdegang">
 	<div class="triangle-top">
 		<div class="star-section">
@@ -246,7 +238,6 @@
 		</div>
 </section>
 
-<!-- BERUFSERFAHRUNG -->
 <section id="workexperience">
 	<div class="container">
 		<div class="row text-center">
@@ -312,7 +303,6 @@
 	<div class="work-triangle-bottom"></div>
 </div>
 
-<!-- SKILLS -->
 <section id="skills">
 	<div class="container">
 		<div class="row text-center">
@@ -502,7 +492,6 @@
 		</section>
 	</section>
 
-<!-- DOKUMENTE -->
 <section id="documents">
 	<div class="container text-center">
 		<div class="row">
@@ -529,7 +518,6 @@
 	</div>
 </section>
 
-<!-- HOBBYS -->
 <section id="activities">
 	<div class="activities-skills">
 			<div class="clouds cloud1"></div>
@@ -594,7 +582,6 @@
 
 </section>
 
-<!-- KONTAKT -->
 <section id="contact">
 	<div class="container text-center">
 		<form method="post" action="submit.php">
@@ -611,7 +598,6 @@
 	</div>
 </section>
 
-<!-- FOOTER -->
 <?php include("footer.html");?>
 
 <script src="js/custom.js"></script>
