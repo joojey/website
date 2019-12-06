@@ -5,6 +5,10 @@ $(document).ready(function () {
         } else {
             $('.scrolltotop').fadeOut();
         }
+
+        if ($(this).scrollTop() > 100) {
+            $('.goback').fadeIn();
+        }
     });
 
     $('.scrolltotop').click(function () {
