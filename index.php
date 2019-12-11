@@ -67,6 +67,7 @@
 			<div class="navbar-nav">
 				<a class="nav-item nav-link" href="#werdegang-scroll">Werdegang</a>
 				<a class="nav-item nav-link" href="#jobs">Berufe</a>
+				<a class="nav-item nav-link" href="#projects">Projekte</a>
 				<a class="nav-item nav-link" href="#skills">Skills</a>
 				<a class="nav-item nav-link" href="#hobbys">Hobbys</a>
 			</div>
@@ -138,7 +139,7 @@
 						<div class="points"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Beginn der Erlernung der Programmiersprache Java.</a>.</p>
+						<p>Beginn der Erlernung der Programmiersprache Java und Erstellung einiger Projekte wie einer <a href="#">Verschlüsselung</a> und einem <a href="#">Bot mit einer Wetterstation</a>.</p>
 					</div>
 				</div>
 
@@ -298,9 +299,36 @@
 
 </section>
 
-<div class="work-triangle-above">
+<section id="projects">
 	<div class="work-triangle-bottom"></div>
-</div>
+	<div class="container text-center">
+		<div class="row text-center">
+			<div class="col-12">
+				<h3 id="projekte">Praktische Anwendung</h3>
+				<h1>Projekte</h1>
+				<h2>Meine aktuellsten Projekte.</h2>
+			</div>
+		</div>
+		<div class="row projects-row">
+			<div class="col-md">
+				<div class="button">
+					<h2>Textverschlüsselung</h2>
+					<p class="project-text">Ein Programm, welches Texte mit der Caesar-Verschlüsselung verschlüsselt und entschlüsselt. Das Projekt ist in der Programmiersprache Java geschrieben.</p>
+					<p><b>Zum Projekt:</b></p>
+					<a href="#" rel="nofollow">Encryption-Decryption</a>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="button">
+					<h2>Wetterstation Bot</h2>
+					<p class="project-text">Eine Wetterstation mit mehreren Sensoren mit einem Raspberry Pi. Die ermittelten Werte werden mit Hilfe eines Bots über einen Messenger abgerufen. Das Projekt ist in der Programmiersprache Python geschrieben.</p>
+					<p><b>Zum Projekt:</b></p>
+					<a href="#" rel="nofollow">Telegram Wetter Bot</a>
+				</div>
+			</div>
+		</div>
+		</div>
+</section>
 
 <section id="skills">
 	<div class="container">
@@ -401,12 +429,20 @@
 								<th>
 									<h3 class="skills-script">Java</h3>
 								</th>
+								<th class="mobile-hidden">
+									<h3 class="skills-script">  |  </h3>
+								</th>
+								<th>
+									<h3 class="skills-script">Python</h3>
+								</th>
 							</tr>
 							<tr class="mobile-hidden">
 								<td class="table-skills grey">SE 12 <</td>
+								<td></td>
+								<td class="table-skills grey">3.8 <</td>
 							</tr>
 						</table>
-						<p>Seit diesem Jahr lerne ich, als meine erste Programmiersprache Java.</p>
+						<p>Seit diesem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekt der Verschlüsselung lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener">Hyperskill</a>. Für die Erstellung des Bots beim Projekt der Wetterstation stellte sich Python als geeignetsten heraus. Hierbei halfen mir meine bereits angeeigneten Kenntnisse in Java um diesen umzusetzen.</p>
 					</li>
 				</ul>
 							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
@@ -545,25 +581,17 @@
 						<h4>Programmieren</h4>
 						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern, so fing es bereits damals an. Mit der Erlernung von Java ist das Programmieren jedoch nun zu meinem echten Hobby geworden.</p>
 					</li>
-					<li>
-						<h4>Webdesign | Grafikbearbeitung</h4>
-						<p>Bereits seit meiner Jugend konzipiere ich gerne Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
-					</li>
 				</ul>
 			</div>
 			<div class="col-md-6">
 				<ul>
 					<li>
-						<h4>Exploring</h4>
-						<p>In die Natur einzutauchen - neue, spannende Orte zu entdecken, das ist das Gegenstück zu meinen vielen technischen Vorlieben. Neben der Natur, erkunde ich verlassene Orte, die mich in vergangene, längst vergessene Zeiten eintauchen lassen.</p>
+						<h4>Webdesign | Grafikbearbeitung</h4>
+						<p>Bereits seit meiner Jugend konzipiere ich gerne Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
 					</li>
 					<li>
 						<h4>Schwimmen | Fußball</h4>
 						<p>Als sportlichen Ausgleich gehe ich gerne regelmäßig schwimmen. Ich bin langjähriger Fan vom Fußballverein Manchester United.</p>
-					</li>
-					<li>
-						<h4>Lesen</h4>
-						<p>Mit meiner Begeisterung zur Astronomie und zu Vordenkern Ihrer Zeit, wie Jules Verne oder Arthur C. Clarke, lese ich am liebsten Science Fiction Bücher.</p>
 					</li>
 
 				</ul>
