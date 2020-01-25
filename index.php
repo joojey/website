@@ -89,14 +89,7 @@
 					<p>
 						Es freut mich, dass du den Weg auf meine Website gefunden hast!<br><br>
 						Durch mein frühes Interesse an Informationstechniken und meinem schulischen und beruflichen wirtschaftlichen Werdegang, begeistern mich insbesondere IT-Themen mit wirtschaftlichen Zusammenhängen.
-						Dabei witme ich mich gerne verschiedener IT-Projekte. So habe ich diese Seite ins Leben gerufen, um mich näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
-					</p>
-					<div class="row">
-						<img src="img/handwritten.png" class="handwritten">
-					</div>
-					<hr>
-					<p style="padding:0;">
-						Diese Website findest du auch auf meinem <a target="_blank" rel="nofollow noopener" href="https://github.com/joojey">GitHub-Profil</a>.
+						Dabei witme ich mich gerne verschiedener IT-Projekte. So habe ich diese Website ins Leben gerufen, um mich dir näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
 					</p>
 				</div>
 			</div>
@@ -139,7 +132,7 @@
 						<div class="points"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Beginn der Erlernung der Programmiersprache Java und Erstellung einiger Projekte wie einer <a href="#">Verschlüsselung</a> und einem <a href="#">Bot mit einer Wetterstation</a>.</p>
+						<p>Beginn der Erlernung der Programmiersprache Java und Durchführung eigener Projekte, wie einer <a href="project-encryption" rel="nofollow">Textverschlüsselung</a> und einer <a href="#" rel="nofollow">Wetterstation mit Chatbot</a>.</p>
 					</div>
 				</div>
 
@@ -153,10 +146,11 @@
 					<div class="col-md-8">
 						<p>Bis Q3 2019 beschäftigt in der IT-Abteilung von Sportwelt Scherer als kaufmännischer Mitarbeiter. Neben meinen Tätigkeiten konnte ich in dieser Zeit weitere Aufgaben in meinem Team umsetzen:<br><br>
 							- Erstellung eines Datenschutzkonzeptes und des Verzeichnisses von Verarbeitungstätigkeiten zur Umsetzung der neuen Datenschutz-Grundverordnung.<br>
+							- Erstellung eines Mitarbeiterbeurteilungs-Systems.<br>
+							- Optimierung von Geschäftsprozessen wie u.a.:<br>
 							- Optimierung der Versandabwicklung über die Schnittstelle Intraship.<br>
 							- Optimierung des Designs und der Usability des Online-Shops.<br>
-							- Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.<br>
-							- Erstellung eines Mitarbeiterbeurteilungs-Systems.<br><br>
+							- Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.<br><br>
 							Weitere Informationen findest du in meinem <a href="../documents/reference.pdf#zoom=150" rel="nofollow">Arbeitszeugnis</a>.</p>
 						</div>
 					</div>
@@ -181,7 +175,7 @@
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung der Onlinepräszenz. Zudem übernahm ich die Inbetriebnahmen und Reparaturen von Rasenrobotern.</p>
+							<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung der Onlinepräszenz. Zudem übernahm ich die Inbetriebnahmen und Wartungen von Rasenrobotern.</p>
 						</div>
 					</div>
 
@@ -193,7 +187,7 @@
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung. Mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert, sowie alle Module des staatlichen <a href="../documents/certificates.pdf#zoom=150" rel="nofollow">EDV-Führerscheins</a> erfolgreich abgeschlossen.</p>
+							<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung, mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert, sowie alle Module des staatlichen <a href="../documents/certificates.pdf#zoom=150" rel="nofollow">EDV-Führerscheins</a> erfolgreich bestanden.</p>
 						</div>
 					</div>
 
@@ -259,13 +253,14 @@
 				</div>
 				<p>Meine Aufgaben umfassten informationstechnische und kaufmännische Tätigkeiten im ausgewogenem Maße:</p>
 				<ul>
+					<li><p>Datenstrukturierung, -pflege und -überprüfung</p></li>
 					<li><p>Verwaltung des ERP-Systems</p></li>
-					<li><p>Datenstrukturierung / Daten Im- und Exporte</p></li>
-					<li><p>Verwaltung des Online-Shops und der Märktplätze</p></li>
+					<li><p>Prozessoptimierung u.a. vom Onlineshop</p></li>
+					<li><p>Verwaltung der Verkaufsportale</p></li>
+					<li><p>Abmahn- und Datenschutz</p></li>
+					<li><p>Auftragsabwicklung</p></li>
 					<li><p>Leasing- und Finanzierungsabwicklung</p></li>
 					<li><p>Kundensupport und Verkaufstätigkeiten</p></li>
-					<li><p>Abmahn- und Datenschutz</p></li>
-					<li><p>Preisoptimerung über Repricing-Tools</p></li>
 					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=150" rel="nofollow">Arbeitszeugnis</a></p></li>
 				</ul>
 			</div>
@@ -280,14 +275,15 @@
 				</div>
 				<p>In meiner Berufsausbildung waren es zum größten Teil kaufmännische Tätigkeiten:</p>
 				<ul>
+					<li><p>Auftragsabwicklung</p></li>
 					<li><p>Garantie- und Reklamationsabwicklung</p></li>
 					<li><p>Führung der Umsatzstatistik</p></li>
-					<li><p>Einkauf und Beschaffung</p></li>
-					<li><p>Korrespondenz mit Kunden und Lieferanten</p></li>
+					<li><p>Beschaffung</p></li>
+					<li><p>Kommunikation mit Kunden und Lieferanten</p></li>
 					<li><p>Erstellung und Kontrolle von Rechnungen</p></li>
 					<li><p>Dokumentenverwaltung und -ablage</p></li>
 					<li><p>Softwareupdates an Rasenrobotern</p></li>
-					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=150" rel="nofollow">Ausbildungszeugnis</a></p></li>
+					<li><p>Weitere im <a href="../documents/training-certificate.pdf#zoom=150" rel="nofollow">Ausbildungszeugnis</a></p></li>
 				</ul>
 			</div>
 		</div>
@@ -313,15 +309,15 @@
 			<div class="col-md">
 				<div class="button">
 					<h2>Textverschlüsselung</h2>
-					<p class="project-text">Ein Programm, welches Texte mit der Caesar-Verschlüsselung verschlüsselt und entschlüsselt. Das Projekt ist in der Programmiersprache Java geschrieben.</p>
+					<p class="project-text">Ein Programm, welches einen beliebigen Text aus zwei wählbaren Verschlüsselungsalgorithmen verschlüsselt oder entschlüsselt. Das Projekt ist in der Programmiersprache Java geschrieben.</p>
 					<p><b>Zum Projekt:</b></p>
-					<a href="#" rel="nofollow">Encryption-Decryption</a>
+					<a href="project-encryption" rel="nofollow">Verschlüsselung</a>
 				</div>
 			</div>
 			<div class="col-md">
 				<div class="button">
-					<h2>Wetterstation Bot</h2>
-					<p class="project-text">Eine Wetterstation mit mehreren Sensoren mit einem Raspberry Pi. Die ermittelten Werte werden mit Hilfe eines Bots über einen Messenger abgerufen. Das Projekt ist in der Programmiersprache Python geschrieben.</p>
+					<h2>Wetterstation mit Chatbot</h2>
+					<p class="project-text">Eine mit einem Raspberry Pi konstruierte Wetterstation. Die ermittelten Wetterdaten werden mit Hilfe eines Chatbots abgerufen. Das Projekt ist in der Programmiersprache Python geschrieben.</p>
 					<p><b>Zum Projekt:</b></p>
 					<a href="#" rel="nofollow">Telegram Wetter Bot</a>
 				</div>
@@ -372,7 +368,7 @@
 								<td class="table-skills grey">3.3.0 <</td>
 							</tr>
 						</table>
-						<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websites veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von Erstellung und Führen von Websites. Mit immer anderen kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' erweitern. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes, sowie bei meinem darauf folgenden Arbeitgeber.</p>
+						<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websites veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von erstellen und führen von Websites. Mit immer mehr kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' bestätigen. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes, sowie bei meinem Arbeitgeber Sportwelt Scherer.</p>
 					</li>
 
 					<li>
@@ -442,7 +438,7 @@
 								<td class="table-skills grey">3.8 <</td>
 							</tr>
 						</table>
-						<p>Seit diesem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekt der Verschlüsselung lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener">Hyperskill</a>. Für die Erstellung des Bots beim Projekt der Wetterstation stellte sich Python als geeignetsten heraus. Hierbei halfen mir meine bereits angeeigneten Kenntnisse in Java um diesen umzusetzen.</p>
+						<p>Seit letztem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekt der Verschlüsselung lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener">Hyperskill</a>. Für die Erstellung des Chatbots beim Projekt der Wetterstation, stellte sich Python als geeignetsten heraus.  Um diesen umzusetzen halfen mir meine bereits angeeigneten Kenntnisse in Java.</p>
 					</li>
 				</ul>
 							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
@@ -467,10 +463,10 @@
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">2007 <</td>
 										<td></td>
-										<td class="table-skills gold">4.2 <</td>
+										<td class="table-skills gold">4.1.3 <</td>
 									</tr>
 								</table>
-								<p>Vertieft habe ich meine Kenntnisse in Microsoft Word und Excel in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Für den Import und Export von CSV-Daten verwende ich stellenweise OpenOffice Calc.</p>
+								<p>Vertieft habe ich meine Kenntnisse in Microsoft Word und Excel in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Im Beruf sind für mich beide Kalkulationsprogramme der jeweiligen Hersteller ein täglicher Begleiter. So nutze ich diese, um Datenmengen zu imporiteren, exportieren und zu verarbeiten.</p>
 							</li>
 							<li>
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
@@ -515,10 +511,10 @@
 									<tr class="mobile-hidden">
 										<td class="table-skills gold">2007 <</td>
 										<th><h3 class="skills-program"></h3></th>
-										<td class="table-skills gold">2010 ></td>
+										<td class="table-skills gold">2013 ></td>
 									</tr>
 								</table>
-								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich Microsoft Access kennen und arbeitete regelmäßig mit PowerPoint. In dieser Zeit erlernte ich zudem das 10-Finger-Schreibsystem.</p>
+								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich den Umgang mit Microsoft Access und konnte das 10-Finger-Schreibsystem erlernen. Während meiner schulischen Laufbahn arbeitete ich regelmäßig mit Microsoft PowerPoint.</p>
 							</li>
 						</ul>
 					</div>
@@ -587,7 +583,7 @@
 				<ul>
 					<li>
 						<h4>Webdesign | Grafikbearbeitung</h4>
-						<p>Bereits seit meiner Jugend konzipiere ich gerne Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
+						<p>Bereits seit meiner Jugend konzipiere ich Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
 					</li>
 					<li>
 						<h4>Schwimmen | Fußball</h4>
