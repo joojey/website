@@ -4,8 +4,19 @@
   display: inline
 }
 
+.col-md {
+  padding: 0 5px 10px 5px;
+}
+
 .col-sm-6 {
   padding: 0 0 0 0;
+}
+
+.col-sk {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 10px 10px 10px;
 }
 
 p {
@@ -156,7 +167,6 @@ a {
   right: 100px;
   width: 60px;
   height: 60px;
-  text-indent: -9999px;
   background-image: url("../img/up.png");
   background-size: contain;
   color: #fff;
@@ -238,6 +248,10 @@ a {
   .avatar-documents img {
     left: 50%
   }
+
+  .skill-button {
+    width: 140px
+  }
 }
 
 .avatar-hobby img {
@@ -313,6 +327,7 @@ a {
 }
 
 .nav-link-fixed {
+  display: block;
   font-size: 18pt;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -321,7 +336,6 @@ a {
   background-image: url("../img/back.png");
   background-size: contain;
   background-repeat: no-repeat;
-  text-indent: -9999px;
   padding-left: 50px !important;
   color: #073E5D !important
 }
@@ -444,6 +458,14 @@ a {
 
   .butterfly {
     margin-left: 45% !important
+  }
+
+  .skill-button {
+    width: 80px;
+  }
+
+  .skill-button p {
+    font-size: 8.5px;
   }
 }
 
@@ -1131,11 +1153,12 @@ a {
 }
 
 #projects .button a {
-  background: none
+  background: none;
+  color: #fff
 }
 
 .projects-row {
-  margin: 20px 0 180px 0
+  margin: 20px 0 220px 0
 }
 
 .projects-row h2 {
@@ -1212,6 +1235,25 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdbc9c', endColorstr='#a21c75', GradientType=1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
+}
+
+.skill-button {
+    width: 95px;
+    margin:0 auto
+}
+
+.skill-button p {
+    display: inline-block;
+    padding: 0 5px 0 5px!important;
+    width: 100%;
+    background: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 4.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #000
 }
 
 .table-skills {
@@ -1509,21 +1551,16 @@ a {
 
 .button a {
   display: inline-block;
-  border: 1px solid #fff;
+  padding: 0 5px 0 5px!important;
   width: 100%;
-  background: #3b94dd;
-  background: -moz-linear-gradient(left, #3b94dd 0%, #3b94dd 30%, #79b8e9 80%);
-  background: -webkit-linear-gradient(left, #3b94dd 0%, #3b94dd 30%, #79b8e9 80%);
-  background: linear-gradient(to right, #3b94dd 0%, #3b94dd 30%, #79b8e9 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b94dd', endColorstr='#79b8e9', GradientType=1);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: none;
+  border: 2px solid black;
+  border-radius: 8px;
   font-weight: 600;
   line-height: 4.0em;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #fff
+  color: #000
 }
 
 .button a {
@@ -1542,6 +1579,11 @@ a {
   padding: 0
 }
 
+#documents h1 {
+  background: #000;
+  -webkit-background-clip: text;
+}
+
 #contact {
   margin: 150px 0 100px 0;
 }
@@ -1557,7 +1599,7 @@ a {
 #contact-form{
     max-width: 700px;
     margin: 0 auto;
-    border: 1px solid #555;
+    border: 1px solid #000;
     margin-top: 70px;
     margin-bottom: 100px;
     cursor: text

@@ -26,7 +26,7 @@
 	<div class="city-section">
 
 		<div class="carbon-neutral-position">
-			<a href="../documents/natureoffice_certificate.pdf#zoom=150" rel="nofollow" target="_blank" rel="nofollow noopener"><img class="carbon-neutral-header" src="img/2019-707-645228-de-top.svg"></img></a>
+			<a href="../documents/natureoffice_certificate.pdf#zoom=125" rel="nofollow" target="_blank" rel="nofollow noopener"><img class="carbon-neutral-header" src="img/2019-707-645228-de-top.svg"></img></a>
 		</div>
 
 		<div class="avatar-hello-position">
@@ -132,7 +132,7 @@
 						<div class="points"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Beginn der Erlernung der Programmiersprache Java und Durchführung eigener Projekte, wie einer <a href="project-encryption" rel="nofollow">Textverschlüsselung</a> und einer <a href="#" rel="nofollow">Wetterstation mit Chatbot</a>.</p>
+						<p>Erlernung der Programmiersprache Java und Durchführung eigener Projekte, wie einer <a href="project-encryption" rel="nofollow">Textverschlüsselung</a> und einer <a href="#" rel="nofollow">Wetterstation mit Chatbot</a>.</p>
 					</div>
 				</div>
 
@@ -144,14 +144,14 @@
 						<div class="points points-long"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Bis Q3 2019 beschäftigt in der IT-Abteilung von Sportwelt Scherer als kaufmännischer Mitarbeiter. Neben meinen Tätigkeiten konnte ich in dieser Zeit weitere Aufgaben in meinem Team umsetzen:<br><br>
+						<p>Bis Q3 2019 beschäftigt in der IT-Abteilung von Sportwelt Scherer als kaufmännischer Angestellter. Neben meinen Tätigkeiten konnte ich in dieser Zeit weitere Aufgaben in meinem Team umsetzen:<br><br>
 							- Erstellung eines Datenschutzkonzeptes und des Verzeichnisses von Verarbeitungstätigkeiten zur Umsetzung der neuen Datenschutz-Grundverordnung.<br>
 							- Erstellung eines Mitarbeiterbeurteilungs-Systems.<br>
 							- Optimierung von Geschäftsprozessen wie u.a.:<br>
 							- Optimierung der Versandabwicklung über die Schnittstelle Intraship.<br>
 							- Optimierung des Designs und der Usability des Online-Shops.<br>
 							- Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.<br><br>
-							Weitere Informationen findest du in meinem <a href="../documents/reference.pdf#zoom=150" rel="nofollow">Arbeitszeugnis</a>.</p>
+							Weitere Informationen findest du in meinem <a href="../documents/reference.pdf#zoom=125" rel="nofollow">Arbeitszeugnis</a>.</p>
 						</div>
 					</div>
 
@@ -187,7 +187,7 @@
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung, mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert, sowie alle Module des staatlichen <a href="../documents/certificates.pdf#zoom=150" rel="nofollow">EDV-Führerscheins</a> erfolgreich bestanden.</p>
+							<p>Besuch der höheren Handelsschule für Wirtschaft und Verwaltung, mit dem erfolgreichen Abschluss der Fachhochschulreife nach zwei Jahren. Meinen Wahlpflichtkurs 'Homepage' habe ich mit der Note sehr gut absolviert, sowie alle Module des staatlichen <a href="../documents/certificates.pdf#zoom=125" rel="nofollow">EDV-Führerscheins</a> erfolgreich bestanden.</p>
 						</div>
 					</div>
 
@@ -248,7 +248,7 @@
 					<div class="workplace-text">
 						<h3>Sportwelt Scherer</h3>
 						<h2>2,7 Jahre</h2>
-						<p>IT-Abteilung</p>
+						<p>Kaufm. Angestellter<br>IT-Abteilung</p>
 					</div>
 				</div>
 				<p>Meine Aufgaben umfassten informationstechnische und kaufmännische Tätigkeiten im ausgewogenem Maße:</p>
@@ -261,7 +261,7 @@
 					<li><p>Auftragsabwicklung</p></li>
 					<li><p>Leasing- und Finanzierungsabwicklung</p></li>
 					<li><p>Kundensupport und Verkaufstätigkeiten</p></li>
-					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=150" rel="nofollow">Arbeitszeugnis</a></p></li>
+					<li><p>Weitere im <a href="../documents/reference.pdf#zoom=125" rel="nofollow">Arbeitszeugnis</a></p></li>
 				</ul>
 			</div>
 
@@ -270,7 +270,7 @@
 					<div class="workplace-text">
 						<h3>Firma Hans Esser</h3>
 						<h2>3 Jahre</h2>
-						<p>Ausbildung</p>
+						<p>Ausbildung zum<br>Bürokaufmann</p>
 					</div>
 				</div>
 				<p>In meiner Berufsausbildung waren es zum größten Teil kaufmännische Tätigkeiten:</p>
@@ -280,10 +280,10 @@
 					<li><p>Führung der Umsatzstatistik</p></li>
 					<li><p>Beschaffung</p></li>
 					<li><p>Kommunikation mit Kunden und Lieferanten</p></li>
-					<li><p>Erstellung und Kontrolle von Rechnungen</p></li>
+					<li><p>Erstellung und Kontrolle u.a. von Rechnungen</p></li>
 					<li><p>Dokumentenverwaltung und -ablage</p></li>
 					<li><p>Softwareupdates an Rasenrobotern</p></li>
-					<li><p>Weitere im <a href="../documents/training-certificate.pdf#zoom=150" rel="nofollow">Ausbildungszeugnis</a></p></li>
+					<li><p>Weitere im <a href="../documents/training-certificate.pdf#zoom=125" rel="nofollow">Ausbildungszeugnis</a></p></li>
 				</ul>
 			</div>
 		</div>
@@ -334,6 +334,89 @@
 				<h1>Kenntnisse</h1>
 				<h2>Womit ich Erfahrung gesammelt habe.</h2>
 			</div>
+		</div>
+
+		<div class="row text-center">
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>HTML</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>CSS</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Bootstrap</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Javascript</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>JQuery</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Twig</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Ruby</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Word</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Excel</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Writer</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Calc</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>PowerPoint</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Access</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Paint.net</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Photoshop</p>
+						</div>
+					</div>
+					<div class="col-sk">
+						<div class="button skill-button">
+							<p>Inkscape</p>
+						</div>
+					</div>
 		</div>
 
 		<div class="row">
@@ -438,7 +521,7 @@
 								<td class="table-skills grey">3.8 <</td>
 							</tr>
 						</table>
-						<p>Seit letztem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekt der Verschlüsselung lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener">Hyperskill</a>. Für die Erstellung des Chatbots beim Projekt der Wetterstation, stellte sich Python als geeignetsten heraus.  Um diesen umzusetzen halfen mir meine bereits angeeigneten Kenntnisse in Java.</p>
+						<p>Seit letztem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekten, lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener"><b>Hyperskill</b></a>. Für die Erstellung des Chatbots beim Projekt der Wetterstation, stellte sich Python als geeignetsten heraus.  Um diesen umzusetzen halfen mir meine bereits angeeigneten Kenntnisse in Java.</p>
 					</li>
 				</ul>
 							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
@@ -533,14 +616,19 @@
 				<h2>Ein tieferer Einblick.</h2>
 
 				<div class="row documents-row">
-					<div class="col-sm-6">
+					<div class="col-md">
 						<div class="button">
-							<a href="../documents/certificates.pdf#zoom=150" rel="nofollow">Zertifikate</a>
+							<a href="../documents/reference.pdf#zoom=125" rel="nofollow">Arbeitszeugnis</a>
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-md">
 						<div class="button">
-							<a href="../documents/reference.pdf#zoom=150" rel="nofollow">Arbeitszeugnisse</a>
+							<a href="../documents/training-certificate.pdf#zoom=125" rel="nofollow">Ausbildungszeugnis</a>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="button">
+							<a href="../documents/certificates.pdf#zoom=125" rel="nofollow">Zertifikate</a>
 						</div>
 					</div>
 				</div>
@@ -583,7 +671,7 @@
 				<ul>
 					<li>
 						<h4>Webdesign | Grafikbearbeitung</h4>
-						<p>Bereits seit meiner Jugend konzipiere ich Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien, unter anderem auch für Freunde.</p>
+						<p>Bereits seit meiner Jugend konzipiere ich Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien - unter anderem auch für Freunde.</p>
 					</li>
 					<li>
 						<h4>Schwimmen | Fußball</h4>
