@@ -89,7 +89,7 @@
 					<p>
 						Es freut mich, dass du den Weg auf meine Website gefunden hast!<br><br>
 						Durch mein frühes Interesse an Informationstechniken und meinem schulischen und beruflichen wirtschaftlichen Werdegang, begeistern mich insbesondere IT-Themen mit wirtschaftlichen Zusammenhängen.
-						Dabei witme ich mich gerne verschiedener IT-Projekte. So habe ich diese Website ins Leben gerufen, um mich dir näher vorstellen zu können. Ich hoffe, dass du am Ende einen besseren Eindruck von mir gewinnen konntest.<br><br>
+						Dabei widme ich mich gerne verschiedenen Arten von IT-Projekten. So habe ich diese Website ins Leben gerufen, um mich dir näher vorstellen zu können. Ich hoffe, dass du am Ende einen genaueren Eindruck von mir gewinnen konntest.<br><br>
 					</p>
 				</div>
 			</div>
@@ -132,7 +132,7 @@
 						<div class="points"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Erlernung der Programmiersprache Java und Durchführung eigener Projekte, wie einer <a href="project-encryption" rel="nofollow">Textverschlüsselung</a> und einer <a href="#" rel="nofollow">Wetterstation mit Chatbot</a>.</p>
+						<p>Erlernung der Programmiersprache Java und Durchführung eigener Projekte, wie einer <a href="project-encryption" rel="nofollow">Textverschlüsselung</a> und einer <a href="project-weatherbot" rel="nofollow">Wetterstation mit Chatbot</a>.</p>
 					</div>
 				</div>
 
@@ -149,7 +149,7 @@
 							- Erstellung eines Mitarbeiterbeurteilungs-Systems.<br>
 							- Optimierung von Geschäftsprozessen wie u.a.:<br>
 							- Optimierung der Versandabwicklung über die Schnittstelle Intraship.<br>
-							- Optimierung des Designs und der Usability des Online-Shops.<br>
+							- Optimierung des Backends und der Usability des Online-Shops.<br>
 							- Optimierung der Kassiervorgänge über das plentymarkets POS-Modul.<br><br>
 							Weitere Informationen findest du in meinem <a href="../documents/reference.pdf#zoom=125" rel="nofollow">Arbeitszeugnis</a>.</p>
 						</div>
@@ -157,7 +157,7 @@
 
 					<div class="row star-text-row">
 						<div class="col-md-2">
-							<h2 class="years">2014</h2>
+							<h2 class="years">2015</h2>
 						</div>
 						<div class="col-md-1">
 							<div class="points"></div>
@@ -175,7 +175,7 @@
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung der Onlinepräszenz. Zudem übernahm ich die Inbetriebnahmen und Wartungen von Rasenrobotern.</p>
+							<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei der Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben, war ich mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Verwaltung der Onlinepräszenz. Zudem übernahm ich die Inbetriebnahmen und Wartungen von Rasenrobotern.</p>
 						</div>
 					</div>
 
@@ -211,7 +211,7 @@
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Erstellung der ersten Website über den Anbieter Jimdo. Im selben Jahr start weiterer Websites, zusammen mit einer in diesem Bereich kennengelernten Person.</p>
+							<p>Erstellung der ersten Website über den Anbieter Jimdo. Im selben Jahr Start weiterer Websites, zusammen mit einer in diesem Bereich kennengelernten Person.</p>
 						</div>
 					</div>
 
@@ -223,7 +223,7 @@
 							<div class="points-last"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Erstellung der ersten eigenen Website über den Anbieter Hompage-Baukasten.</p>
+							<p>Erstellung der ersten eigenen Website über den Anbieter: Hompage-Baukasten.</p>
 						</div>
 					</div>
 
@@ -319,7 +319,7 @@
 					<h2>Wetterstation mit Chatbot</h2>
 					<p class="project-text">Eine mit einem Raspberry Pi konstruierte Wetterstation. Die ermittelten Wetterdaten werden mit Hilfe eines Chatbots abgerufen. Das Projekt ist in der Programmiersprache Python geschrieben.</p>
 					<p><b>Zum Projekt:</b></p>
-					<a href="#" rel="nofollow">Telegram Wetter Bot</a>
+					<a href="project-weatherbot" rel="nofollow">Telegram Wetter Bot</a>
 				</div>
 			</div>
 		</div>
@@ -451,11 +451,11 @@
 								<td class="table-skills grey">3.3.0 <</td>
 							</tr>
 						</table>
-						<p>Als Jimdo als neuer Anbieter von Baukastensystemen für Websites veröffentlicht wurde, war dies der Startschuss meiner intensiven Beschäftigung von erstellen und führen von Websites. Mit immer mehr kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an meiner höheren Handelsschule im Wahlkurs 'Homepage' bestätigen. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes, sowie bei meinem Arbeitgeber Sportwelt Scherer.</p>
+						<p>Zu der Zeit als Jimdo ein neuer Anbieter von Baukastensystemen von Websites wurde, war dies der Startschuss meiner intensiven Beschäftigung der Erstellung und Fühtung eigener Websites. Mit immer mehr kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. Diese Kenntnisse konnte ich anschließend an der höheren Handelsschule im Wahlkurs 'Homepage' bestätigen. In meiner darauffolgenden Berufsausbildung übernahm ich die Verwaltung und Optimierung der Website meines Ausbildungsbetriebes, sowie später auch bei meinem neuen Arbeitgeber Sportwelt Scherer.</p>
 					</li>
 
 					<li>
-						<h4>Scriptsprachen</h4>
+						<h4>Skriptsprachen & Frameworks</h4>
 						<table>
 							<tr>
 								<th>
@@ -498,7 +498,7 @@
 								<td class="table-skills grey">4.2.7.1 ></td>
 							</tr>
 						</table>
-						<p>Javascript konnte ich mit dem Standard ES6 in der Zeit der Erstellung der Tauschbörse erlernen. Bei diesem Projekt kam zudem Ruby on Rails zum Einsatz. Bei der Arbeit mit JavaScript setze ich oft jQuery ein. Beruflich nutzte ich PHP zusammen mit Twig.</p>
+						<p>Javascript konnte ich mit den Standards ES6 in der Zeit unseres Projektes der Tauschbörse erlernen. Bei diesem Projekt kam zudem Ruby on Rails zum Einsatz. Bei der Arbeit mit JavaScript setze ich oft jQuery ein. Beruflich nutzte ich PHP zusammen mit Twig.</p>
 					</li>
 
 					<li>
@@ -521,7 +521,7 @@
 								<td class="table-skills grey">3.8 <</td>
 							</tr>
 						</table>
-						<p>Seit letztem Jahr lerne ich, als meine erste Programmiersprache Java. Neben meinem Projekten, lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains. Ein Blick zu meinem Profil: <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener"><b>Hyperskill</b></a>. Für die Erstellung des Chatbots beim Projekt der Wetterstation, stellte sich Python als geeignetsten heraus.  Um diesen umzusetzen halfen mir meine bereits angeeigneten Kenntnisse in Java.</p>
+						<p>Seit letztem Jahr lerne ich Java. Neben der Durchführung von Projekten, lerne und löse ich Aufgaben auf der Online-Plattform von JetBrains - hier geht's zu meinem <a href="https://hyperskill.org/profile/595580" rel="nofollow" target="_blank" rel="nofollow noopener"><b>Hyperskill-Profil</b></a>. Für die Erstellung des Chatbots bei meinem Projekt der Wetterstation, stellte sich Python als geeignetsten heraus. Bei der Umzusetzung halfen mir dabei meine bereits angeeigneten Kenntnisse in Java.</p>
 					</li>
 				</ul>
 							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
@@ -539,7 +539,7 @@
 								<h4>Textverarbeitung & Tabellenkalkulation</h4>
 								<table>
 									<tr >
-										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Word & Excel</h3></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Microsoft</div> Word & Excel</h3></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
 										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Open Office</div> Writer & Calc</h3></th>
 									</tr>
@@ -549,7 +549,7 @@
 										<td class="table-skills gold">4.1.3 <</td>
 									</tr>
 								</table>
-								<p>Vertieft habe ich meine Kenntnisse in Microsoft Word und Excel in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Im Beruf sind für mich beide Kalkulationsprogramme der jeweiligen Hersteller ein täglicher Begleiter. So nutze ich diese, um Datenmengen zu imporiteren, exportieren und zu verarbeiten.</p>
+								<p>Vertieft habe ich meine Kenntnisse in Microsoft Word und Excel in den Fächern der höheren Handelsschule und fortführend an der Berufsschule meiner Ausbildung. Im Beruf sind für mich beide Kalkulationsprogramme ein täglicher Begleiter. So nutze ich diese, um Datenmengen zu importieren, exportieren und zu verarbeiten.</p>
 							</li>
 							<li>
 								<h4>Bildbearbeitungs<div class="break-mobile">-<br></div>programme</h4>
@@ -585,9 +585,9 @@
 								<h4>Weitere</h4>
 								<table>
 									<tr>
-										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> PowerPoint</h3></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Microsoft</div> PowerPoint</h3></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
-										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">MS</div> Access</h3></th>
+										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Microsoft</div> Access</h3></th>
 										<th class="mobile-hidden"><h3 class="skills-program">  |  </h3></th>
 										<th><h3 class="skills-program"><div class="mobile-hidden mobile-hidden-text">Touch </div>typing</h3></th>
 									</tr>
@@ -597,7 +597,7 @@
 										<td class="table-skills gold">2013 ></td>
 									</tr>
 								</table>
-								<p>In den Fächern Informationswirtschaft und Datenverarbeitung meiner höheren Handelsschule, lernte ich den Umgang mit Microsoft Access und konnte das 10-Finger-Schreibsystem erlernen. Während meiner schulischen Laufbahn arbeitete ich regelmäßig mit Microsoft PowerPoint.</p>
+								<p>In den Fächern Informationswirtschaft und Datenverarbeitung der höheren Handelsschule, lernte ich den Umgang mit Microsoft Access und konnte das 10-Finger-Schreibsystem erlernen. Während meiner schulischen Laufbahn arbeitete ich regelmäßig mit Microsoft PowerPoint.</p>
 							</li>
 						</ul>
 					</div>
@@ -659,11 +659,11 @@
 				<ul>
 					<li>
 						<h4>Musikproduktion</h4>
-						<p>Musik ist schon immer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte, später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
+						<p>Musik ist schon immer ein leidenschaftlicher Teil meines Lebens. Angefangen im Kindergarten mit der Blockflöte und später an der Trommelflöte im Örtlichen Trommlerkorps, bis zum Schlagzeug spielen. Durch mein technisches Interesse wurde dann die Erstellung von Musik über den Computer geweckt. Heute erstelle ich genreübergreifende elektronische Musik mit den DAWs FL Studio und Cubase. Dabei unterstützen mich neben vielen Software-Plugins von Drittanbietern zwei Access Synthesizer.</p>
 					</li>
 					<li>
 						<h4>Programmieren</h4>
-						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern, so fing es bereits damals an. Mit der Erlernung von Java ist das Programmieren jedoch nun zu meinem echten Hobby geworden.</p>
+						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern - so fing es bereits damals an. Mit der Erlernung von Java ist das Programmieren jedoch nun zu einem echten Hobby geworden.</p>
 					</li>
 				</ul>
 			</div>
@@ -671,7 +671,7 @@
 				<ul>
 					<li>
 						<h4>Webdesign | Grafikbearbeitung</h4>
-						<p>Bereits seit meiner Jugend konzipiere ich Websites und deren Design. Dabei, aber auch für andere Bereiche erstelle, bearbeite und optimiere ich Grafiken und Fotografien - unter anderem auch für Freunde.</p>
+						<p>Bereits seit meiner Jugend konzipiere ich Websites und deren Design. Hier, aber auch in anderen Bereichen erstelle, bearbeite und optimiere ich Grafiken sowie Fotografien - unter anderem auch für Freunde.</p>
 					</li>
 					<li>
 						<h4>Schwimmen | Fußball</h4>

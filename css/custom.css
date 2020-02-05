@@ -250,7 +250,7 @@ a {
   }
 
   .skill-button {
-    width: 140px
+    width: 140px!important
   }
 }
 
@@ -461,11 +461,11 @@ a {
   }
 
   .skill-button {
-    width: 80px;
+    width: 80px!important
   }
 
   .skill-button p {
-    font-size: 8.5px;
+    font-size: 8.5px!important
   }
 }
 
@@ -1075,7 +1075,8 @@ a {
 }
 
 #workexperience p {
-  padding: 10px 0 20px 0
+  padding: 10px 0 20px 0;
+  text-align: center
 }
 
 .work-triangle-bottom {
@@ -1094,7 +1095,8 @@ a {
 }
 
 #workexperience li p {
-  padding: 0
+  padding: 0;
+  text-align: left
 }
 
 #workexperience .office {
@@ -1238,7 +1240,7 @@ a {
 }
 
 .skill-button {
-    width: 95px;
+    width: 105px;
     margin:0 auto
 }
 
