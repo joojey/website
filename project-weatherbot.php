@@ -39,11 +39,11 @@
 			<div class="col-12">
 				<p>Programmiersprache: <span class="sprache python"></span> Python</p>
 				<hr>
-				<p>Wir erstellen uns eine Wetterstsation mit mehreren Sensoren. Die ermittelten Sensordaten werden mit Hilfe eines Bots, beim Telegram Messenger ausgegeben. Ein Raspberry Pi fungiert dabei als Betriebsystem um die Sensordaten zu verarbeiten.<br><br>
+				<p>Wir erstellen uns eine Wetterstsation mit zwei Sensoren. Die Sensordaten werden mit Hilfe eines Bots im Telegram Messenger ausgelesen und ausgegeben. Ein Raspberry Pi fungiert dabei als Betriebsystem um die Sensordaten zu verarbeiten.<br><br>
 				Dies ist eine Schritt für Schritt Anleitung, wie bei diesem Projekt vorgegangen wurde, damit auch du dieses Projekt mit Leichtigkeit nachstellen kannst.<br><br>
-				Dieses Projekt mit allen Dateien findest du auch auf meinem <a href="https://github.com/woltersjoh/weatherbot" target="_blank" rel="nofollow noopener">GitHub-Profil</a>.
+				Dieses Projekt findest du auch auf meinem <a href="https://github.com/woltersjoh/weatherbot" target="_blank" rel="nofollow noopener">GitHub-Profil</a> und darf verwendet werden.
 				<h2>Zielsetzung</h2>
-				<p>Ein Programm welches kontinuierlich Daten abruft und diese in einem Diagramm grafisch dargestellt darstellt. Sowie die Möglichkeit expliziete Daten zu jedem Zeitpunkt abzurufen.</p>
+				<p>Eine Wetterstation bei der aktuelle Wetterdaten abgerufen werden können.</p>
 				<hr>
 				<h2>Zusammenfassung</h2>
 				<ul>
@@ -139,10 +139,8 @@ P8 Remoute GPIO		Enable</code></pre>
 					</li>
 					<li class="steps step-two">
 						<h3>Aufbau und Verkabelung</h3>
-						<p>Beide Sensoren werden auf das Breadboard gesteckt.<br><br>
-						Die Jumperkabel müssen wie folgt angesteckt sein:</p>
-						<img src="img/projects/weatherbot/project-structure.png"></img>
-						<pre><code class="language-python">VIN ○──┐
+						<p>Der Aufbau der Verkabelung sieht wie folgt aus:</p>
+						<pre style="background: none;"><code class="language-python" style="color: #212529; text-shadow: none; font-weight: bold;">VIN ○──┐
 GND ○──│─┐
 SCL ○──│─│─┐
 SDA ○──│─│─│─┐
@@ -158,6 +156,10 @@ SDA ○──│─│─│─┤
 GND ○────┘ │ │
 SCL ○──────┘ │
 SDA ○────────┘</code></pre>
+						<p>Beide gelöteten Sensoren werden auf das Breadboard gesteckt. Die Jumperkabel müssen beim Raspberry Pi 3 Modell B+ wie folgt verteilt sein:<br><br>
+						<i>Das entsprechende Pinout vom GPIO kann bei <a href="https://www.raspberrypi.org/documentation/usage/gpio/" target="_blank" rel="nofollow noopener">Raspberry</a> aufgerufen werden.</i></p>
+						<img src="img/projects/weatherbot/project-structure.png"></img>
+						<br><br>
 					</li>
 				</ul>
 			</div>
@@ -421,22 +423,7 @@ updater.dispatcher.add_handler(CallbackQueryHandler(ultraviolet_button, pattern=
 
 updater.start_polling()
 </code></pre>
-		<br>
-	<!--
-		<hr id="analysis"><br>
-		<div class="project-steps">
-				<h2>Sensortests und Auswertung des Wetters</h2>
-			<p>...</p>
-		</div>
-		<br>
-		<hr id="final-result"><br>
-		<div class="project-steps">
-			<h2>Endergebnis</h2>
-			<p>...</p>
-		</div>
-	-->
-
-			<br><br><br><br><br>
+		<br><br><br><br><br><br>
 			</div>
 		</div>
 	</div>

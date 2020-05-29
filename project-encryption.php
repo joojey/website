@@ -40,7 +40,8 @@
 				<p>Programmiersprache: <span class="sprache java"></span> Java</p>
 				<hr>
 				<p>Ver- und Entschlüsselungsalgorithmen begegnen uns überall in unserer digitalen Welt. Datensicherheit ist für technische Entwicklungen dabei der wichtigste Faktore. Selbst wenn wir eine Nachricht an unsere Freunde senden, soll nur der entsprechende Empfänger diese lesen können.
-					Dieses Projekt erstellt ein Programm, welches beliebige Texteingaben mit einfachen Algorithmen verschlüsseln oder entschlüsseln kann. Ein Schlüssel stellt dabei die Berechtigung zur Verschlüsselung und den Grad der Verschlüsselung dar. Das Projekt vermittelt Grundprinzipien der Kryptographie in der Programmierung und setzt daher Grundkenntnisse in Java, oder einer anderen Programmiersprache voraus. Dieses Projekt stellte mein erstes umfangreicheres Projekt bei der Erlernung von Java dar und ist zur besseren Verständnis in einzelne Abschnitte unterteilt.</p>
+					Dieses Projekt erstellt ein Programm, welches beliebige Texteingaben mit einfachen Algorithmen verschlüsseln oder entschlüsseln kann. Ein Schlüssel stellt dabei die Berechtigung zur Verschlüsselung und den Grad der Verschlüsselung dar. Das Projekt vermittelt Grundprinzipien der Kryptographie in der Programmierung und setzt daher Grundkenntnisse in Java, oder einer anderen Programmiersprache voraus. Dieses Projekt stellte mein erstes umfangreicheres Projekt bei der Erlernung von Java dar und ist zur besseren Verständnis in einzelne Abschnitte unterteilt.<br><br>
+				Dieses Projekt findest du auch auf meinem <a href="https://github.com/woltersjoh/encryption-decryption" target="_blank" rel="nofollow noopener">GitHub-Profil</a> und darf verwendet werden.</p>
 				<h2>Zielsetzung</h2>
 				<p>Das Ziel ist ein Programm, welches über die Kommandozeile (Konsole) einen beliebigen Text mithilfe zwei wählbarer Verschlüsselungsmethoden entweder verschlüsselt oder entschlüsselt. Der Anweder soll die Möglichkeit besitzen seinen Text entweder direkt über die Konsole oder über eine Datei einzugeben. Die Ausgabe des Endergebnisses soll in der Konsole oder in einer neuen Datei erfolgen.</p>
 				<br>
@@ -628,7 +629,7 @@ switch (alg) {
 <br><br>
 <h3>Installation</h3>
 <p>Es wird keine Installation benötigt.</p>
-<p>Das vollständige Programm befindet sich auf meinem <a href="https://github.com/joojey/encryption-decryption" target="_blank" rel="nofollow noopener">GitHub-Profil</a> und kann dort heruntergeladen werden.</p>
+<p>Das vollständige Programm befindet sich auf meinem <a href="https://github.com/woltersjoh/encryption-decryption" target="_blank" rel="nofollow noopener">GitHub-Profil</a> und kann dort heruntergeladen werden.</p>
 <hr><br>
 <h3>Verwendung</h3>
 <p>Bitte beachten, dass der Code von meinem GitHub-Profil zuvor noch compiled werden muss.</p>
