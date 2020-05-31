@@ -2,13 +2,13 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 500) {
-            $('.scrolltotop').fadeIn();
+            $('.scroll-top').fadeIn();
         } else {
-            $('.scrolltotop').fadeOut();
+            $('.scroll-top').fadeOut();
         }
     });
 
-    $('.scrolltotop').click(function () {
+    $('.scroll-top').click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 500);
@@ -41,7 +41,7 @@ $(document).ready(function(){
     });
 });
 
-//SKILL BLINK AUTOMATION
+//SKILLS-SECTION BLINK AUTOMATION
 let i = 1;
 function automate(){
     var filterOn = document.getElementById("skillID-" + i);

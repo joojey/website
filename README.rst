@@ -16,14 +16,14 @@ Development
 Authors
 =======
 
-- `Johannes Wolters <https://github.com/joojey>`__
+- `Johannes Wolters <https://github.com/woltersjoh>`__
 
 
 License
 =======
 MIT License
 
-Copyright (c) 2019 Johannes Wolters
+Copyright (c) 2020 Johannes Wolters
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

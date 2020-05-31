@@ -26,13 +26,13 @@
 					<a class="nav-link-fixed" href="javascript:history.back()">Zurück</a>
 				</div>
 		</div>
-		<div class="bg-white-impressum"></div>
+		<div class="white-bar-impressum"></div>
 		<div class="col-12 text-center">
 			<h1>Wetterstation</h1>
 		</div>
 	</section>
 
-	<div class="scrolltotop"><div class="scrolltotop-finger"></div></div>
+	<div class="scroll-top"><div class="scroll-direction"></div></div>
 
 	<div class="container project">
 		<div class="row">

@@ -12,12 +12,13 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/command-line.css">
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onscroll="commandlineScrollEvent()">
 <!--
 Safety precaution initialized...
 
@@ -25,9 +26,10 @@ $ git rm --cached index.php
 $ git commit -m "remove index.php for safety"
 $ git push origin master
 -->
-<section id="cityContainer">
 
-	<div class="bg-white"></div>
+<section id="city">
+
+	<div class="white-bar"></div>
 
 	<div class="city-section">
 
@@ -65,13 +67,13 @@ $ git push origin master
 	</div>
 
 	<nav class="navbar navbar-expand-lg navbar-light ">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-markup" aria-controls="navbar-markup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="collapse navbar-collapse" id="navbar-markup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link scrollLink" href="#werdegang-scroll">Werdegang</a>
+				<a class="nav-item nav-link scrollLink" href="#history">Werdegang</a>
 				<a class="nav-item nav-link scrollLink" href="#jobs">Berufe</a>
 				<a class="nav-item nav-link scrollLink" href="#projects">Projekte</a>
 				<a class="nav-item nav-link scrollLink" href="#skills">Skills</a>
@@ -79,10 +81,7 @@ $ git push origin master
 			</div>
 		</div>
 	</nav>
-
 </section>
-
-<div class="scrolltotop"><div class="scrolltotop-finger"></div></div>
 
 <section id="about">
 	<div class="container text-center">
@@ -102,7 +101,19 @@ $ git push origin master
 	</div>
 </section>
 
-<section id="werdegang">
+<section id="command-line">
+	<div class="triangle-command-line"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div id="note">Hier wird die Eingabe eines Befehls in eine Kommandozeile fiktiv mit simplen JavaScript dargestellt. Die einzelnen Texte werden bei Erreichen bestimmter Y-Werte sichtbar. Es erfolgt keine Verarbeitungen.</div>
+					<div id="web-command-line"></div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section id="history">
 	<div class="triangle-top">
 		<div class="star-section">
 			<div class="stars">
@@ -124,7 +135,7 @@ $ git push origin master
 		<div class="row">
 			<div class="col-12">
 
-				<div class=" text-center" id="werdegang-scroll"><h3>Timeline</h3></div>
+				<div class=" text-center" id="history"><h3>Timeline</h3></div>
 				<h1>Werdegang</h1>
 				<h2 class="text-center">Mein Leben in wichtigen Schritten.</h2>
 
@@ -149,7 +160,7 @@ $ git push origin master
 						<div class="points points-long"></div>
 					</div>
 					<div class="col-md-8">
-						<p>Bis zum Q3/2019 war ich in der IT-Abteilung von Sport- & Radwelt Scherer als kaufmännischer Angestellter tätig. Hier habe ich wertvolle Erfahrungen im Multichannel E-Commerce und ERP-Umfeld gewonnen. Neben meinen Tätigkeiten konnte ich weitere Aufgaben mit meinem Team umsetzen:<br><br>
+						<p>Bis zum Q3/2019 war ich in einer IT-Abteilung eines Fahrrad-Fachhändlers mit Onlinehandel tätig. Hier habe ich wertvolle Erfahrungen im Multichannel E-Commerce und ERP-Umfeld gewonnen. Neben meinen Tätigkeiten konnte ich weitere Aufgaben mit meinem Team umsetzen:<br><br>
 							- Anfertigung eines Datenschutzkonzeptes und des Verzeichnisses von Verarbeitungstätigkeiten, sowie die Anpassung betrieblicher Abläufe zur Umsetzung der Datenschutz-Grundverordnung (DSGVO).<br><br>
 							- Optimierung von Geschäftsprozessen wie u. a.:<br>
 							Die Versandabwicklung über die Schnittstelle Intraship.<br>
@@ -179,7 +190,7 @@ $ git push origin master
 							<div class="points"></div>
 						</div>
 						<div class="col-md-8">
-							<p>Beginn meiner 3-jährigen Ausbildung zum Bürokaufmann bei der Firma Hans Esser. Neben allgemeinen Büro- und Verwaltungsaufgaben und dem Kundensupport, war ich mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Onlinepräsenz. Des Weiteren übernahm ich die Inbetriebnahmen und Software-Updates von Rasenrobotern beim Kunden vor Ort.</p>
+							<p>Beginn meiner 3-jährigen dualen Ausbildung zum Bürokaufmann. Neben allgemeinen Büro- und Verwaltungsaufgaben und dem Kundensupport, war ich mit der Führung der monatlichen Umsatzstatistik beauftragt und verantwortlich für die Onlinepräsenz. Des Weiteren übernahm ich die Inbetriebnahmen und Software-Updates von Rasenrobotern beim Kunden vor Ort.</p>
 						</div>
 					</div>
 
@@ -228,7 +239,6 @@ $ git push origin master
 			<div class="col-md-6">
 				<div class="workplace">
 					<div class="workplace-text">
-						<h3>Sportwelt Scherer</h3>
 						<h2>2,7 Jahre</h2>
 						<p>Kaufm. Angestellter<br>IT-Abteilung</p>
 					</div>
@@ -250,7 +260,6 @@ $ git push origin master
 			<div class="col-md-6">
 				<div class="workplace">
 					<div class="workplace-text">
-						<h3>Firma Hans Esser</h3>
 						<h2>3 Jahre</h2>
 						<p>Ausbildung zum<br>Bürokaufmann</p>
 					</div>
@@ -505,7 +514,7 @@ $ git push origin master
 								<td class="table-skills grey">3.3.0 <</td>
 							</tr>
 						</table>
-						<p>Als Jimdo als ein neuer Anbieter von Website-Baukästen veröffentlicht wurde, war dies der Startschuss meiner intensiven Zeit von Anfertigung und Führung von Websites. Mit immer mehr kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. In meiner Berufsausbildung übernahm ich die Verwaltung der Website meines Ausbildungsbetriebes, sowie auch bei meinem Arbeitgeber Sport- & Radwelt Scherer.</p>
+						<p>Als Jimdo als ein neuer Anbieter von Website-Baukästen veröffentlicht wurde, war dies der Startschuss meiner intensiven Zeit von Anfertigung und Führung von Websites. Mit immer mehr kreativen Ideen und Projekten, kam der Wunsch nach mehr Individualität, sodass ich mir zunächst HTML Kenntnisse aneignete. Später erstellte ich dann erste komplett eigene Websites mit HTML und CSS. Bei beiden Arbeitstellen übernahm ich die Verwaltung der Website.</p>
 					</li>
 				</ul>
 							<div class="avatar avatar-skills"><img src="img/avatar_skills.png"></img></div>
@@ -526,7 +535,7 @@ $ git push origin master
 										<th><h3 class="skills-program">Plentymarkets</h3></th>
 									</tr>
 								</table>
-								<p>Als Verwalter des eingesetzten ERP-Systems bei Sport- & Radwelt Scherer habe ich u. a. folgendes angelegt:<br><br>
+								<p>Als Verwalter des eingesetzten ERP-Systems habe ich u. a. folgendes angelegt:<br><br>
 									- Interaktive und ereignisorientierte Prozesse.<br>
 									(Produkterkennung für die Versandabwicklung - Automatisierung von Schritten der Auftragsabwicklung)<br>
 									- Merkmale und Attribute für Artikeldaten.<br>
@@ -597,7 +606,7 @@ $ git push origin master
 	</section>
 
 <section id="activities">
-	<div class="activities-skills">
+	<div class="sky">
 			<div class="clouds cloud1"></div>
 			<div class="clouds cloud2"></div>
 			<div class="clouds cloud3"></div>
@@ -608,7 +617,7 @@ $ git push origin master
 			<div class="clouds cloud8"></div>
 	</div>
 	<div class="container">
-		<div class="row" style="margin-bottom:300px;">
+		<div class="row" style="margin-bottom:340px;">
 			<div class="col-12 text-center">
 				<h3 id="hobbys">Freizeitaktivitäten</h3>
 				<h1>Hobbys</h1>
@@ -618,7 +627,7 @@ $ git push origin master
 				<ul>
 					<li>
 						<h4>Programmieren</h4>
-						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern - so fing es bereits damals an. An der Arbeit mit Business-Software und der Konfiguration von Prozessen entstand das Interesse, wie solche Anwendungen programmiert werden. Mit der Erlernung von Java ist das Programmieren nun zu meiner echten Leidenschaft geworden. Hier widme ich mich gerne unterschiedlicher Projekte. Die Möglichkeiten scheinen grenzenlos.</p>
+						<p>Betriebssysteme und Anwendungen auf mich anzupassen und abzuändern - so fing es bereits damals an. An der Arbeit mit Business-Software und der Konfiguration von Prozessen entstand das Interesse, wie solche Anwendungen programmiert werden. Mit der Erlernung von Java ist das Programmieren nun zu meiner echten Leidenschaft geworden. Die Möglichkeiten scheinen grenzenlos.</p>
 					</li>
 					<li>
 						<h4>Webdesign | Grafikbearbeitung</h4>
@@ -630,7 +639,7 @@ $ git push origin master
 				<ul>
 					<li>
 						<h4>Schwimmen | Fußball</h4>
-						<p>Als sportlichen Ausgleich gehe ich gerne regelmäßig mit meinem Arbeitskollegen schwimmen. Ich bin langjähriger Fan vom Fußballverein Manchester United.</p>
+						<p>Zum sportlichen Ausgleich gehe ich gerne regelmäßig mit meinem Arbeitskollegen schwimmen. Ich bin langjähriger Fan vom Fußballverein Manchester United.</p>
 					</li>
 					<li>
 						<h4>Musikproduktion</h4>
@@ -649,7 +658,6 @@ $ git push origin master
 	<div class="triangle-above">
 		<div class="triangle-bottom"></div>
 	</div>
-
 </section>
 
 <section id="contact">
@@ -668,9 +676,12 @@ $ git push origin master
 	</div>
 </section>
 
+<div class="scroll-top"><div class="scroll-direction"></div></div>
+
 <?php include("footer.html");?>
 
 <script src="js/custom.js"></script>
+<script src="js/command-line.js"></script>
 
 </body>
 </html>

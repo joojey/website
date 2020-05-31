@@ -1,0 +1,59 @@
+#command-line {
+  height: 100%;
+  font-size: 1.2em;
+  font-family: monospace;
+  color: white
+}
+
+#web-command-line {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  min-height: 500px;
+  padding: 10px 0 60px 0
+}
+
+#command-line-cursor {
+  display: inline-block;
+  animation: blinking-cmd-cursor step-end 1s infinite;
+  width: 8px;
+  height: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff
+}
+
+@keyframes blinking-cmd-cursor {
+  from, to {
+  background: transparent;
+  }
+  50% {
+  background: white;
+  }
+}
+
+#note {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  font-size: 0.8em!important;
+  color: slategray!important
+}
+
+@media (max-width: 580px) {
+  #note {
+    display: none;
+  }
+}
+
+.triangle-command-line {
+  position: absolute;
+  transform: skewY(-3deg);
+  transform-origin: right;
+  margin-top: -115px;
+  margin-bottom: -115px;
+  width: 100%;
+  height: 150%;
+  background: #232327
+}
